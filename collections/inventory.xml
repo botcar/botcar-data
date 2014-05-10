@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file:CiteCollectionInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<collectionService 
+    xmlns="http://chs.harvard.edu/xmlns/cite"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    
+    <!-- Botanica Caroliniana Collections -->
+    
+   <citeCollection 
+        urn="urn:cite:botcar:catesbyLabels"
+        canonicalId="URN" 
+        label="name">
+        <namespaceMapping abbr="botcar" fullValue="http://classics.furman.edu/datans/botcar"/>
+        
+        <dc:title>Botanica Caroliniana: Labels</dc:title>
+        <dc:description>BC: Labels on historical botanical specimens</dc:description>
+        <dc:rights>All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
+        <source
+            type="file"
+            value="botcar/botcarLabels.csv"/>
+        <citeProperty label="URN" name="URN" type="citeurn"/>
+        <citeProperty label="Folio URN" name="folioURN" type="citeurn"/>
+        <citeProperty label="Image URN" name="imgURN" type="citeimg"/>
+        <citeProperty label="Text" name="text" type="markdown"/>
+        <citeProperty label="Category" name="category" type="string">
+            <valueList>
+                <value>Typed Label</value>
+                <value>Pen on Label</value>
+                <value>Pen on Page</value>
+                <value>Pencil on Page</value>
+            </valueList>
+        </citeProperty>
+        <!--<citeProperty label="Authority" name="auth" type="string"/>
+        <citeProperty label="Century" name="century" type="number"/>-->
+        <citeProperty label="Contributer" name="Contributer" type="authuser"/>
+        <citeProperty label="Date" name="Date" type="string"/>
+        <citeProperty label="Name" name="name" type="string"/>
+        
+    </citeCollection>
+    
+    <citeCollection 
+        urn="urn:cite:botcar:sloane" 
+        canonicalId="specimenURN"
+        label="name">
+        <namespaceMapping abbr="botcar" fullValue="http://classics.furman.edu/datans"/>
+        <dc:title>Botanica Caroliniana: Catesby Specimens</dc:title>
+        <dc:description>BC: Specimens in Mark Catesbys H.S. volumes from the Sloane Herbarium</dc:description>
+        <dc:rights>All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
+        <source
+            type="file"
+            value="botcar/catesbySpecimens.csv"/>
+        
+        <citeProperty label="Specimen ID" name="specimenURN" type="citeurn"/>
+        <citeProperty label="Name" name="name" type="string"/>
+        <citeProperty label="Scientific Name" name="scientificName" type="markdown"/>
+        <citeProperty label="Species URN" name="speciesURN" type="citeurn"/>
+        <citeProperty label="Common Name" name="commonName" type="string"/>
+        <citeProperty label="Genus URN" name="genusURN" type="citeurn"/>
+        <citeProperty label="Family URN" name="familyURN" type="citeurn"/>
+        <citeProperty label="Folio URN" name="folioURN" type="citeurn"/>
+        <citeProperty label="Folio Image" name="folioImage" type="citeimg"/>
+        <citeProperty label="Folio Image ROI" name="folioImageROI" type="citeimg"/>
+        <citeProperty label="ITIS TSN Serial No." name="tsnID" type="string"/>
+    </citeCollection>
+   
+    
+    <citeCollection 
+        urn="urn:cite:botcar:species"
+        canonicalId="speciesURN" 
+        label="scientificName">
+        <namespaceMapping abbr="botcar" fullValue="http://classics.furman.edu/datans"/>
+        <dc:title>Botanica Caroliniana: Species</dc:title>
+        <dc:description>BC: Species represented in the Botanica Caroliniana dataset</dc:description>
+        <dc:rights>All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
+        <source
+            type="file"
+            value="botcar/species.csv"/>
+        <citeProperty label="Species ID" name="speciesURN" type="citeurn"/>
+        <citeProperty label="Scientific Name" name="scientificName" type="string"/>
+    </citeCollection>
+    
+<citeCollection 
+    urn="urn:cite:botcar:genus"
+    canonicalId="genusURN"
+     label="genusName">
+        <namespaceMapping abbr="botcar" fullValue="http://classics.furman.edu/datans"/>
+    <dc:title>Botanica Caroliniana: Genus</dc:title>
+    <dc:description>BC: Genera represented in the Botanica Caroliniana dataset</dc:description>
+    <dc:rights>All data in this collection are available
+        under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+        http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
+    <source
+        type="file"
+        value="botcar/genera.csv"/>
+        <citeProperty label="Genus ID" name="genusURN" type="citeurn"/>
+        <citeProperty label="Genus Name" name="genusName" type="string"/>
+        <citeProperty label="Family URN" name="familyURN" type="citeurn"/>
+        <citeProperty label="ITIS TSN Serial No." name="tsnID" type="string"
+            />
+    </citeCollection>
+    
+<citeCollection 
+    urn="urn:cite:botcar:family"
+    label="familyName"
+    canonicalId="familyURN">
+        <namespaceMapping abbr="botcar" fullValue="http://classics.furman.edu/datans"/>
+    <dc:title>Botanica Caroliniana: Family</dc:title>
+    <dc:description>BC: Families represented in the Botanica Caroliniana dataset</dc:description>
+    <dc:rights>All data in this collection are available
+        under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+        http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
+    <source
+        type="file"
+        value="botcar/families.csv"/>
+        <citeProperty label="Family ID" name="familyURN" type="citeurn"/>
+        <citeProperty label="Family Name" name="familyName" type="string"/>
+        <citeProperty label="ITIS TSN Serial No." name="tsnID" type="string"/>
+</citeCollection>
+    
+    
+    <citeCollection 
+        urn="urn:cite:botcar:CatesbyHS212" 
+        canonicalId="folioURN"
+        label="folioURN"
+        >
+        <namespaceMapping abbr="botcar" fullValue="http://classics.furman.edu/datans"/>
+        
+        <dc:title>Botanica Caroliniana: Catesby HS212</dc:title>
+        <dc:description>BC: Catesby HS212</dc:description>
+        <dc:rights>All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
+        <orderedBy property="Sequence"/>
+        <source
+            type="file"
+            value="botcar/CatesbyHS212.csv"/>
+        
+        <citeProperty label="Page ID" name="folioURN" type="citeurn"/>
+        <citeProperty label="Recto or verso" name="RV" type="string"/>
+        <citeProperty label="MS label" name="MS" type="string"/>
+        <citeProperty label="MS siglum" name="Siglum" type="string"/>
+        <citeProperty label="Internal sequence number" name="Sequence" type="number"/>
+        <citeProperty label="Codex URN" name="CodexURN" type="citeurn"/>
+    </citeCollection>
+    
+  <citeCollection 
+        urn="urn:cite:botcar:CatesbyHS232" 
+        canonicalId="folioURN" 
+        label="folioURN">
+        
+        <namespaceMapping abbr="botcar" fullValue="http://classics.furman.edu/datans"/>
+        <dc:title>Botanica Caroliniana: Catesby HS232</dc:title>
+        <dc:description>BC: Catesby HS232</dc:description>
+        <dc:rights>All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
+        <orderedBy property="Sequence"/>
+        <source
+            type="file"
+            value="botcar/CatesbyHS232.csv"/>
+        
+        <citeProperty label="Page ID" name="folioURN" type="citeurn"/>
+        <citeProperty label="Recto or verso" name="RV" type="string"/>
+        <citeProperty label="MS label" name="MS" type="string"/>
+        <citeProperty label="MS siglum" name="Siglum" type="string"/>
+        <citeProperty label="Internal sequence number" name="Sequence" type="number"/>
+    </citeCollection>
+    
+    <citeCollection  
+        urn="urn:cite:botcar:CatesbyNH1" 
+        canonicalId="folioURN" 
+        label="folioURN"
+        >
+        <namespaceMapping abbr="botcar" fullValue="http://classics.furman.edu/datans"/>
+        <dc:title>Botanica Caroliniana: Catesby NH vol. 1</dc:title>
+        <dc:description>BC: Catesby NH vol. 1</dc:description>
+        <dc:rights>All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
+        <orderedBy property="Sequence"/>
+        <source
+            type="file"
+            value="botcar/CatesbyNH1.csv"/>
+        
+        <citeProperty label="Page ID" name="folioURN" type="citeurn"/>
+        <citeProperty label="Recto or verso" name="RV" type="string"/>
+        <citeProperty label="MS label" name="MS" type="string"/>
+        <citeProperty label="MS siglum" name="Siglum" type="string"/>
+        <citeProperty label="Internal sequence number" name="Sequence" type="number"/>
+    </citeCollection>
+    
+    <citeCollection 
+        urn="urn:cite:botcar:CatesbyNH2" 
+        canonicalId="folioURN" 
+        label="folioURN">
+        <namespaceMapping abbr="botcar" fullValue="http://classics.furman.edu/datans"/>
+        <dc:title>Botanica Caroliniana: Catesby NH Vol. 2</dc:title>
+        <dc:description>BC: Catesby NH Vol. 2</dc:description>
+        <dc:rights>All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
+        <orderedBy property="Sequence"/>
+        <source
+            type="file"
+            value="botcar/CatesbyNH2.csv"/>
+        
+        <citeProperty label="Page ID" name="folioURN" type="citeurn"/>
+        <citeProperty label="Recto or verso" name="RV" type="string"/>
+        <citeProperty label="MS label" name="MS" type="string"/>
+        <citeProperty label="MS siglum" name="Siglum" type="string"/>
+        <citeProperty label="Internal sequence number" name="Sequence" type="number"/>
+    </citeCollection>
+    
+   
+ 
+
+</collectionService>

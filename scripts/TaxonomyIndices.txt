@@ -1,0 +1,4 @@
+# index		verb 		inverse-verb
+specimen-species	botcar:exemplarOf	botcar:hasExemplar
+species-genus	botcar:isChildOf	botcar:hasChild
+genus-family	botcar:isChildOf	botcar:hasChild
