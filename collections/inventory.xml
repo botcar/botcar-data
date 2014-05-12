@@ -19,7 +19,7 @@
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
         <source
             type="file"
-            value="botcar/botcarLabels.csv"/>
+            value="botcarLabels.csv"/>
         <citeProperty label="URN" name="URN" type="citeurn"/>
         <citeProperty label="Folio URN" name="folioURN" type="citeurn"/>
         <citeProperty label="Image URN" name="imgURN" type="citeimg"/>
@@ -52,7 +52,7 @@
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
         <source
             type="file"
-            value="botcar/catesbySpecimens.csv"/>
+            value="catesbySpecimens.csv"/>
         
         <citeProperty label="Specimen ID" name="specimenURN" type="citeurn"/>
         <citeProperty label="Name" name="name" type="string"/>
@@ -80,7 +80,7 @@
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
         <source
             type="file"
-            value="botcar/species.csv"/>
+            value="species.csv"/>
         <citeProperty label="Species ID" name="speciesURN" type="citeurn"/>
         <citeProperty label="Scientific Name" name="scientificName" type="string"/>
     </citeCollection>
@@ -97,7 +97,7 @@
         http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
     <source
         type="file"
-        value="botcar/genera.csv"/>
+        value="genera.csv"/>
         <citeProperty label="Genus ID" name="genusURN" type="citeurn"/>
         <citeProperty label="Genus Name" name="genusName" type="string"/>
         <citeProperty label="Family URN" name="familyURN" type="citeurn"/>
@@ -117,7 +117,7 @@
         http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
     <source
         type="file"
-        value="botcar/families.csv"/>
+        value="families.csv"/>
         <citeProperty label="Family ID" name="familyURN" type="citeurn"/>
         <citeProperty label="Family Name" name="familyName" type="string"/>
         <citeProperty label="ITIS TSN Serial No." name="tsnID" type="string"/>
@@ -139,7 +139,7 @@
         <orderedBy property="Sequence"/>
         <source
             type="file"
-            value="botcar/CatesbyHS212.csv"/>
+            value="CatesbyHS212.csv"/>
         
         <citeProperty label="Page ID" name="folioURN" type="citeurn"/>
         <citeProperty label="Recto or verso" name="RV" type="string"/>
@@ -163,7 +163,7 @@
         <orderedBy property="Sequence"/>
         <source
             type="file"
-            value="botcar/CatesbyHS232.csv"/>
+            value="CatesbyHS232.csv"/>
         
         <citeProperty label="Page ID" name="folioURN" type="citeurn"/>
         <citeProperty label="Recto or verso" name="RV" type="string"/>
@@ -186,7 +186,7 @@
         <orderedBy property="Sequence"/>
         <source
             type="file"
-            value="botcar/CatesbyNH1.csv"/>
+            value="CatesbyNH1.csv"/>
         
         <citeProperty label="Page ID" name="folioURN" type="citeurn"/>
         <citeProperty label="Recto or verso" name="RV" type="string"/>
@@ -208,7 +208,7 @@
         <orderedBy property="Sequence"/>
         <source
             type="file"
-            value="botcar/CatesbyNH2.csv"/>
+            value="CatesbyNH2.csv"/>
         
         <citeProperty label="Page ID" name="folioURN" type="citeurn"/>
         <citeProperty label="Recto or verso" name="RV" type="string"/>
