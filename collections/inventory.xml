@@ -71,7 +71,7 @@
     <citeCollection 
         urn="urn:cite:botcar:species"
         canonicalId="speciesURN" 
-        label="scientificName">
+        label="label">
         <namespaceMapping abbr="botcar" fullValue="http://classics.furman.edu/datans"/>
         <dc:title>Botanica Caroliniana: Species</dc:title>
         <dc:description>BC: Species represented in the Botanica Caroliniana dataset</dc:description>
@@ -82,13 +82,17 @@
             type="file"
             value="species.csv"/>
         <citeProperty label="Species ID" name="speciesURN" type="citeurn"/>
-        <citeProperty label="Scientific Name" name="scientificName" type="string"/>
+        <citeProperty label="Scientific Name (plain text)" name="scientificNameText" type="markdown"/>
+        <citeProperty label="Scientific Name (markdown)" name="scientificNameFormatted" type="markdown"/>
+        <citeProperty label="Label" name="label" type="markdown"/>
+        <citeProperty label="IPNI ID" name="ipniID" type="string"
+        />
     </citeCollection>
     
 <citeCollection 
     urn="urn:cite:botcar:genus"
     canonicalId="genusURN"
-     label="genusName">
+     label="label">
         <namespaceMapping abbr="botcar" fullValue="http://classics.furman.edu/datans"/>
     <dc:title>Botanica Caroliniana: Genus</dc:title>
     <dc:description>BC: Genera represented in the Botanica Caroliniana dataset</dc:description>
@@ -100,6 +104,7 @@
         value="genera.csv"/>
         <citeProperty label="Genus ID" name="genusURN" type="citeurn"/>
         <citeProperty label="Genus Name" name="genusName" type="string"/>
+        <citeProperty label="Label" name="label" type="markdown"/>
         <citeProperty label="Family URN" name="familyURN" type="citeurn"/>
         <citeProperty label="ITIS TSN Serial No." name="tsnID" type="string"
             />
@@ -107,7 +112,7 @@
     
 <citeCollection 
     urn="urn:cite:botcar:family"
-    label="familyName"
+    label="label"
     canonicalId="familyURN">
         <namespaceMapping abbr="botcar" fullValue="http://classics.furman.edu/datans"/>
     <dc:title>Botanica Caroliniana: Family</dc:title>
@@ -119,6 +124,7 @@
         type="file"
         value="families.csv"/>
         <citeProperty label="Family ID" name="familyURN" type="citeurn"/>
+    <citeProperty label="Label" name="label" type="markdown"/>
         <citeProperty label="Family Name" name="familyName" type="string"/>
         <citeProperty label="ITIS TSN Serial No." name="tsnID" type="string"/>
 </citeCollection>
