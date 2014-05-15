@@ -23,7 +23,7 @@
         <citeProperty label="URN" name="URN" type="citeurn"/>
         <citeProperty label="Folio URN" name="folioURN" type="citeurn"/>
         <citeProperty label="Image URN" name="imgURN" type="citeimg"/>
-        <citeProperty label="Text" name="text" type="markdown"/>
+        <citeProperty label="Text" name="text" type="string"/>
         <citeProperty label="Category" name="category" type="string">
             <valueList>
                 <value>Typed Label</value>
@@ -56,7 +56,7 @@
         
         <citeProperty label="Specimen ID" name="specimenURN" type="citeurn"/>
         <citeProperty label="Name" name="name" type="string"/>
-        <citeProperty label="Scientific Name" name="scientificName" type="markdown"/>
+        <citeProperty label="Scientific Name" name="scientificName" type="string"/>
         <citeProperty label="Species URN" name="speciesURN" type="citeurn"/>
         <citeProperty label="Common Name" name="commonName" type="string"/>
         <citeProperty label="Genus URN" name="genusURN" type="citeurn"/>
@@ -82,11 +82,10 @@
             type="file"
             value="species.csv"/>
         <citeProperty label="Species ID" name="speciesURN" type="citeurn"/>
-        <citeProperty label="Scientific Name (plain text)" name="scientificNameText" type="markdown"/>
-        <citeProperty label="Scientific Name (markdown)" name="scientificNameFormatted" type="markdown"/>
-        <citeProperty label="Label" name="label" type="markdown"/>
-        <citeProperty label="IPNI ID" name="ipniID" type="string"
-        />
+        <citeProperty label="Scientific Name (plain text)" name="scientificNameText" type="string"/>
+        <citeProperty label="Scientific Name (markdown)" name="scientificNameFormatted" type="string"/>
+        <citeProperty label="Label" name="label" type="string"/>
+        <citeProperty label="IPNI ID" name="ipniID" type="string"/>
     </citeCollection>
     
 <citeCollection 
@@ -104,7 +103,7 @@
         value="genera.csv"/>
         <citeProperty label="Genus ID" name="genusURN" type="citeurn"/>
         <citeProperty label="Genus Name" name="genusName" type="string"/>
-        <citeProperty label="Label" name="label" type="markdown"/>
+        <citeProperty label="Label" name="label" type="string"/>
         <citeProperty label="Family URN" name="familyURN" type="citeurn"/>
         <citeProperty label="ITIS TSN Serial No." name="tsnID" type="string"
             />
@@ -124,7 +123,7 @@
         type="file"
         value="families.csv"/>
         <citeProperty label="Family ID" name="familyURN" type="citeurn"/>
-    <citeProperty label="Label" name="label" type="markdown"/>
+    <citeProperty label="Label" name="label" type="string"/>
         <citeProperty label="Family Name" name="familyName" type="string"/>
         <citeProperty label="ITIS TSN Serial No." name="tsnID" type="string"/>
 </citeCollection>
