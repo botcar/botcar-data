@@ -15,7 +15,6 @@
             <element name="cite:namespaceMapping">
                 <attribute name="abbr"/>
                 <attribute name="fullValue"/>
-                <empty/> <!-- Is this needed? -->
             </element>
             
             <ref name="metadata"/>
@@ -23,7 +22,6 @@
             <optional>
                 <element name="cite:orderedBy">
                     <attribute name="property"/>
-                    <empty/> <!-- Is this needed? -->
                 </element>
             </optional>
             
