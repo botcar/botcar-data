@@ -5,31 +5,32 @@
     xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
     xmlns:cite="http://chs.harvard.edu/xmlns/cite"
     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    
     <start>
-        <element
-            name="cite:indexInventory">
+        <element name="cite:indexInventory">
             <oneOrMore>
-                <element
-                    name="cite:rdfNamespace">
-                    <attribute
-                        name="abbr"/>
-                    <attribute
-                        name="fullValue"/>
-                    <empty/>
-                </element>
+                <ref name="rdfNamespace"/>
             </oneOrMore>
             <oneOrMore>
-                <element
-                    name="cite:index">
-                    <attribute
-                        name="verb"/>
-                    <attribute
-                        name="inverse"/>
-                    <optional>
-                        <externalRef href="src.rng"></externalRef>
-                    </optional>
-                </element>
+                <ref name="index"/>
             </oneOrMore>
         </element>
     </start>
+    
+    <define name="rdfNamespace">
+        <element name="cite:rdfNamespace">
+            <attribute name="abbr"/>
+            <attribute name="fullValue"/>
+        </element>
+    </define>
+    
+    <define name="index">
+        <element name="cite:index">
+            <attribute name="verb"/>
+            <attribute name="inverse"/>
+            <optional>
+                <externalRef href="src.rng"/>
+            </optional>
+        </element>
+    </define>
 </grammar>
