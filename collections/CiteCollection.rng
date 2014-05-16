@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <grammar
     datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
+    <!-- Not sure which namespaces are needed... -->
     xmlns="http://relaxng.org/ns/structure/1.0"
     xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
     xmlns:cite="http://chs.harvard.edu/xmlns/cite"
