@@ -1,0 +1,30 @@
+prefix cts: <http://www.homermultitext.org/cts/rdf/>
+prefix cite: <http://www.homermultitext.org/cite/rdf/>
+prefix hmt: <http://www.homermultitext.org/hmt/rdf/>
+prefix citedata: <http://www.homermultitext.org/hmt/citedata/>
+prefix dcterms: <http://purl.org/dc/terms/>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix  xsd: <http://www.w3.org/2001/XMLSchema#>
+prefix olo: <http://purl.org/ontology/olo/core#>
+
+select ?group ?groupLabel ?work ?workLabel ?version ?versionType ?versionLabel ?citationDepth ?firstUrn ?openingText  where {
+
+
+
+?firstUrn cts:hasSequence 1 .
+?firstUrn cts:belongsTo ?version .
+?version rdf:type ?versionType .
+?version rdf:label ?versionLabel .
+?version cts:belongsTo ?work .
+?work cts:belongsTo ?group .
+?group rdf:label ?groupLabel .
+?work rdf:label ?workLabel .
+?firstUrn cts:citationDepth ?citationDepth .
+?firstUrn cts:hasTextContent ?ot .
+
+bind ((REPLACE(STR(?ot), "<[^>]+>", "")) as ?strippedText)
+bind ((REPLACE(STR(?strippedText),"^(.{50}).+","$1…")) as ?openingText)
+
+}
+
+order by ?group ?work ?versionType

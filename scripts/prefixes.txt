@@ -1,0 +1,8 @@
+prefix cts: <http://www.homermultitext.org/cts/rdf/>
+prefix cite: <http://www.homermultitext.org/cite/rdf/>
+prefix hmt: <http://www.homermultitext.org/hmt/rdf/>
+prefix citedata: <http://www.homermultitext.org/hmt/citedata/>
+prefix dcterms: <http://purl.org/dc/terms/>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix  xsd: <http://www.w3.org/2001/XMLSchema#>
+prefix olo: <http://purl.org/ontology/olo/core#>
