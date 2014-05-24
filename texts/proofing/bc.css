@@ -1,0 +1,164 @@
+#bc_embossing {
+  box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.2), inset -1px -1px 2px rgba(256, 256, 256, 0.9);
+}
+#bc_page {
+  box-shadow: 3px 3px 6px #ccc;
+}
+html {
+  font-size: 16pt;
+  padding: 5em;
+  font-family: 'IM Fell DW Pica', serif;
+  line-height: 25.6pt;
+  background: url(draft.png);
+}
+a {
+  text-decoration: none;
+  color: #5b83ad;
+}
+div.bc_section {
+  margin-top: 4em;
+  margin-bottom: 2em;
+  padding-bottom: 1em;
+}
+p,
+h1,
+h2 {
+  display: block;
+  margin-left: 0em;
+  margin-bottom: 1em;
+  max-width: 35em;
+}
+.bc_author {
+  font-size: 24pt;
+  color: #800000;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #dddddc;
+  letter-spacing: 0.08em;
+  text-align: center;
+}
+.bc_publicationStmt,
+.bc_notice,
+.bc_figure_instructions {
+  font-size: 12pt;
+  line-height: 12pt;
+  font-family: Helvetica, sans-serif;
+}
+.bc_publicationStmt p,
+.bc_notice p,
+.bc_figure_instructions p {
+  max-width: 100%;
+}
+.bc_publicationStmt a,
+.bc_notice a,
+.bc_figure_instructions a {
+  margin-right: 1em;
+}
+.bc_notice {
+  color: red;
+  margin-bottom: 2em;
+}
+.bc_citation {
+  display: block;
+  margin-right: -8em;
+  padding-left: 1em;
+  float: right;
+  font-size: 12pt;
+  line-height: 12pt;
+  font-family: Helvetica, sans-serif;
+  color: #800000;
+}
+h1,
+h2 {
+  color: maroon;
+  font-weight: normal;
+  font-size: 24pt;
+  letter-spacing: 0.08em;
+}
+div.bc_eng_column,
+div.bc_fra_column {
+  max-width: 20em;
+}
+div.bc_eng_column {
+  float: left;
+  margin-right: 8em;
+}
+div.bc_eng_column h2 {
+  font-style: italic;
+}
+div.bc_eng_column h2 foreign {
+  font-style: normal;
+}
+div.bc_fra_column {
+  float: left;
+}
+div.bc_fra_column h2 {
+  font-style: normal;
+}
+div.bc_fra_column h2 foreign {
+  font-style: italic;
+}
+div.bc_marginalNote {
+  float: right;
+  padding-left: 40em;
+  /* 
+position: relative;
+	left: 50em;
+ */
+
+  border: 1px solid silver;
+  padding: 0.25em;
+  font-size: 12pt;
+}
+div.bc_marginalNote .bc_citation {
+  display: none;
+  float: none;
+  margin-right: 0em;
+  padding-left: 0;
+  font-size: 12pt;
+  line-height: 12pt;
+  font-family: Helvetica, sans-serif;
+  color: #800000;
+}
+div.bc_clear {
+  clear: both;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #dddddc;
+  width: 100%;
+}
+list item {
+  margin-left: 2em;
+  display: block;
+}
+em {
+  font-style: italic;
+  letter-spacing: 0.08em;
+}
+.bc_latin {
+  color: #800000;
+}
+.bc_french {
+  font-style: italic;
+  letter-spacing: 0.03em;
+}
+.bc_french em {
+  font-style: normal;
+  letter-spacing: 0em;
+}
+.bc_worktitle {
+  font-style: italic;
+}
+img {
+  clear: both;
+  width: 100%;
+}
+div.bc_ref {
+  display: block;
+  max-width: 15em;
+  float: left;
+  line-height: 1em;
+  margin-top: 1em;
+  font-size: 12pt;
+  padding-right: 15em;
+  padding-left: 3em;
+}

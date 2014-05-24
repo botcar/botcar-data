@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="proofing/bc-framework.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full" xml:lang="en">
+                    <title type="main">THE NATURAL HISTORY OF CAROLINA, FLORIDA and the BAHAMA ISLANDS</title>
+                    <title type="sub"> Containing the FIGURES of BIRDS, BEASTS, FISHES, SERPENTS, INSECTS, and PLANTS:
+                        Particularly, the FOREST-TREES, SHRUBS, and other PLANTS, not hitherto described, Or very incorrectly
+                        figured by Authors. Together with their DESCRIPTIONS in English and French. To which, are added
+                        OBSERVATIONS on the AIR, SOIL, and WATERS: With Remarks upon AGRICULTURE, GRAIN, PULSE, ROOTS, &amp;C. To
+                        the whole, Is Perfixed a new and correct Map of the Countries Treated of. </title>
+                    <title type="sub">By the late MARK CATESBY, F.R.S. Revis’d by Mr. EDWARDS of the Royal College of Physicians,
+                        London.</title>
+                    <title level="m">VOL. 1</title>
+                </title>
+                <title type="full" xml:lang="fr">
+                    <title type="main"> HISTOIRE NATURELLE de La CAROLINE, de la FLORIDE, &amp; des Iles de BAHAMA</title>
+                    <title type="sub">Contenant les DESSEINS Des OISEAUX, des ANIMAUX, des POISSONS, des SERPENS, des INSECTES,
+                        &amp; des PLANTES, quo se trouvent dans dex pays là; &amp; en particulier, des ARBRES des Fôrets,
+                        Arbisseaux, &amp; autre Plantes, qui n’ont point été déscrits jusques à present par les Auteurs, ou qui on
+                        été peu exactement dessinés. Avec leus DESCRIPTIONS en François &amp; en Anglois. A quoi on a ajoûté Des
+                        Observations, sur l’AIR, le SOL, &amp; les EAUX, Avec des Remarques sur l’Agriculture, les Grains, les
+                        Légumes, les Racines, &amp;c. Le tout est précédé d’une CARTE nouvelle &amp; exacte des Pays dont ils
+                        s’agît. </title>
+                    <title type="sub"> Par Feu Monsieur MARC CATESBY, de la Société Royale. Et revu par Monseiur EDWARDS, du
+                        College Royal des Médecins de Londres. </title>
+                    <title level="m">TOME 1</title>
+                </title>
+                <author>MARK CATESBY, F.R.S.</author>
+            </titleStmt>
+            <publicationStmt>
+                <availability>
+                    <p>Mark Catesby’s Natural History is in the Public Domain. This expression of his work in TEI-XML, and the
+                        associated stylesheets, are licensed under a Creative Commons Attribution-NonCommercial 3.0 Unported
+                        License.</p>
+                </availability>
+                <date>December, 2012</date>
+                <publisher>Botanica Caroliniana, Furman University, Department of Classics: folio.furman.edu</publisher>
+                <authority>A digital edition with limited semantic markup, edited from public-domain images of Catebsy’s volume
+                    provided by archive.org. Part of the Botanical Caroliniana project, a collaboration of Furman University’s
+                    Department of Classics and the South Carolina Botanical Garden, Clemon University. Amy Hackney Blackwell and
+                    Christopher Blackwell, edd.</authority>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>M. Catesby, F.R.S</author>
+                        <title>THE NATURAL HISTORY OF CAROLINA, FLORIDA and the BAHAMA ISLANDS</title>
+                        <imprint>
+                            <pubPlace>London</pubPlace>
+                            <publisher>Printed for C. Marsh, in Round Court in the Strand; T. Wilcox, over against the New Church,
+                                in the Strand.</publisher>
+                            <date>1754</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div n="Ded" type="section">
+                <div n="HRM" type="subsection">
+                    <div n="Text">
+                        <p n="H">To the Queen.</p>
+                        <p n="1">Madam.</p>
+                        <p n="2">As these Volumes contain an Essay towards the Natural History of that Part of Your MAJESTY’S
+                            Dominions, which is particularly honoured by bearing your August Name CAROLINA, this and Your great
+                            Goodness in encouraging all Sorts of Learning, have embolden’d me to implore Your Royal Protection and
+                            Favour to my slender Performance. I hope your MAJESTY will not think a few MINUTES disagreeably spent,
+                            in casting an EYE on these Leaves; which exhibit no contemptible Scene of Glorions Works of the
+                            Creator, displayed in the New World; and hitherto lain concealed from the View of YOUR MAJESTY as well
+                            as of YOUR Royal Predecessors, tho’ so long possessed of a Country, inferior to none of YOUR MAJESTY’S
+                            American Dominions. </p>
+                        <p n="3">Wherefore I esteem it a singular Happiness, after several Years Travel and Enquiry in so remote
+                            Parts (by the generous Encouragement of several of Your MAJESTY’S Subjects, eminent for their Rank and
+                            for their being Patrons of Learning) that I am the first that has had an opportunity of presenting to
+                            a QUEEN of GREAT BRITIAN a Sample of the hitherto unregarded, tho’ beneficial and beautiful
+                            Productions of YOUR MAJESTY’S DOMINIONS.</p>
+                        <p n="4"> I am, May it please YOUR MAJESTY, Your MAJESTY’s Most humble, And most dutiful Subject M.
+                            CATESBY.</p>
+                    </div>
+                </div>
+                <div n="HRH" type="subsection">
+                    <div n="Text">
+                        <p n="H">To Her Royal Highness the Princess of WALES</p>
+                        <p n="1">Madam,</p>
+                        <p n="2">One of the most wonderful Production of <emph>America</emph> have now the Honour to lay
+                            themselves at the Feet of your ROYAL HIGHNESS; Things new and strange to the Inhabitants of this Side
+                            of the Globe; and which ust therefore necessarily excite, in Minds of infinitely less Discernment and
+                            Piety than that of your ROYAL HIGHNESS, exaulted and religious Sentiments of Power, Wisdom, and
+                            Goddness of that Almighty Being, who not only formed the Universe, but has adorned every Part of it
+                            with an inconceivable Variety of Beauty and Magnificence.</p>
+                        <p n="3">It was in Obedience to the Commands of our late <emph>most Gracious QUEEN</emph>, who
+                            condescended to over-look ant approve my Drawings of the most Extraodrinary Curiosities of Nature
+                            observable in <emph>Carolina</emph>, and the adnacent Countries subject to the Crown of <emph>Great
+                                Britain</emph>, that I applied myself to compile a <title level="m">Natural History</title> of
+                            those Parts of the World; and Her Majesty was pleased to take the First Voume of this Work under Her
+                            own <emph>Royal Patronage</emph>.</p>
+                        <p n="4">Such and Instance of Goodness emboldened me to hope Your ROYAL HIGHNESS would vouchsafe the like
+                            Honour to this Second and Last Volume; and I have so happy not only to obtain Pardon for my
+                            Presumption, but likeise to find the utmost of my Ambition gratified, in the Leave you have been
+                            pleased to grant me, of publishing my Labours under the Protection of Your <emph>Illustrious
+                                Name</emph>.</p>
+                        <p n="5">Happy is it for Knowledge, when Princes love it, and become its Patrons! That You, MADAM, may
+                            long live to be so, adorning Your high Station with every Princely Virtue, and enjoying, together with
+                            Your <emph>Royal</emph> CONSORT, Wealth, Honour, Power, Fame, the Affection of grateful Nations, and
+                            every Worldly Blessing; and that the like Happiness may attend Your lovely Offspring, and be to
+                            endless Ages perpetuated to their Posterity, is the fervent Prayer of,</p>
+                        <p n="6">MADAM, Your ROYAL HIGHNESS’, Most dutiful, Most humble, And most devoted Servant, MARK
+                            CATESBY.</p>
+                    </div>
+                </div>
+            </div>
+            <div n="Praef" type="section">
+                <div n="Eng" type="subsection">
+                    <div n="Text" xml:lang="en">
+                        <p n="H">The PREFACE</p>
+                        <p n="1">The early Inclination I had to search after Plants, and other Productions in Nature, being much
+                            suppressed by my residing too remote from <emph>London</emph> the Center of all Science, I was
+                            deprived of all Opportunities and Examples to excite me to a stronger Pursuit after those Things to
+                            which I was naturally bent: yet my Curiosity was such, that not being content with contemplating the
+                            Products of our own Country, I soon imbibed a passionate Desire of viewing as well the Animal as
+                            Vegetable Productions in their Native Countries; which were Strangers to <emph>England</emph>.
+                                <emph>Virginia</emph> was the Place (I having Relations there) suited most with my Convenience to
+                            go to, where I arriv’d the 23d. of <emph>April</emph> 1712. I thought then so little of prosecuting a
+                            Design of the Nature of this Work, that in the Seven Years I resided in that Country, (I am ashamed to
+                            own it) I chiefly gratified my Inclination in observing and admiring the various Productions of those
+                            Countries; only sending from thence some dried Specimens of Plants and some of the most Specious of
+                            them in Tubs of Earth, at the Request of some curious Friends, amongst whom was Mr. <emph>Dale</emph>
+                            of <emph>Braintree</emph> in <emph>Essex</emph>, a skilful Apothecary and Botanist: to him, besides
+                            Specimens of Plants, I sent some few Observations on the Country, which he communicated to the late
+                                <emph>William Sherard</emph>, L. L. D. one of the most celebrated Botanists of this Age, who
+                            favoured me with his Friendship on my Return to <emph>England</emph> till the Year 1719; and by his
+                            Advice, (tho conscious of my own Inability) I first resolved on this Undertaking, so agreeable to my
+                            Inclination. But as Expences were necessary for carrying the Design, I here most gratefully
+                            acknowledge the Assistance and Encouragement I received from several Noble Persons and Gentlemen,
+                            whose Names are here undermention’d.</p>
+                        <p n="2"><list>
+                                <item>His Grace the Duke of CHANDOIS.</item>
+                                <item>The Right Honourable THOMAS Earl of OXFORD.</item>
+                                <item>The Right Honourable THOMAS Earl of MACCLESFIELD.</item>
+                                <item>The Right Honourable JOHN Lord PERCIVAL.</item>
+                                <item>Sir GEORGE MARKHAM, Bar F.R.S.</item>
+                                <item>Sir HENRY GOODRICK, Bar.</item>
+                                <item>Sir HANS SLOANE, Bar President of the Royal Society, and of the College of
+                                    Physicians.</item>
+                                <item>The Honourable Colonel FRANCIS NICHOLSON, Governor of <emph>South Carolina</emph>.</item>
+                                <item>RICHARD MEAD, M. D. and F.R.S.</item>
+                                <item>CHARLES DUBOIS, Esq. F.R.S.</item>
+                                <item>JOHN KNIGHT, Esq; F.R.S.</item>
+                                <item>WILLIAM SHERARD, L.L.D. and F.R.S.</item>
+                            </list></p>
+                        <p n="3">With this Intention, I set out again from <emph>England</emph>, in the Year 1722, directly for
+                                <emph>Carolina</emph>; which Country, tho’ inhabited by <emph>English</emph> above an Age past,
+                            and a Country inferior to none in Fertility, and abounding in Variety of the Blessings of Nature; yet
+                            it’s Productions being very little known except what barely related to Commerce, such as Rice, Pitch
+                            and Tar; was thought the most proper Place to search and describe the Productions of: Accordingly, I
+                            arrived in <emph>Carolina</emph> 23d. of <emph>May</emph> 1722, after a pleasant tho’ not a short
+                            Passage. In our Voyage we were frequently entertain’d with Diversions not uncommon in crossing the
+                                <emph>Atlantick</emph> Ocean, as catching of Sharks, strikeing of Porpuses, Dolphins Bonetoes,
+                            Albicores and other Fish; which three last we regaled on when Fortune favoured us in catching them;
+                            and even the Flesh of Sharks and Porpuses would digest well with the sailors, when long fed on Salt
+                            Meats. The Pursuit of Dolphins after Flying-Fish, was another Amusement we were often diverted with;
+                            the Dolphins having raised the Flying-Fish, by the swiftness of their Swimming, keep Pace with them,
+                            and pursue them so close that the Flying-Fish at length tired, and their Wings dry’d, and thereby
+                            necessitated to drop in the Water, often fall into the Jaws of their Pursuers; at some Times neither
+                            Element aford them Safety, for no sooner do they escape their Enemies in the Water, but they are
+                            caught in the Air by voracious Birds. But what seem’d most remarkable of this Kind, was, that in the
+                            Latitude of 26 Degrees North, about the Midway between the two Continents of <emph>Africa</emph> and
+                                <emph>America</emph>, which I think cannot be less than 600 Leagues, an Owl appear’d hovering over
+                            our Ship; these Birds have short Wings, and have been observed not to be capable of long Flights, it
+                            being a common Diversion for Boys to run them down after the second or third Flight This Owl after
+                            some Attempts to rest, disappear’d; and the same Day being the 22d. of <emph>March</emph>, an Hawk
+                            with a white Head, Breast, and Belly, appear’d in like Manner, and the Day after, some Swallows
+                            appear’d, but none ventur’d to alight on any Part of the Ship. No Birds seem more able to continue
+                            long on their Wings, than Hawks and Swallows; but that an Owl should be able to hold out so long a
+                            Flight, is to me most surprising. </p>
+                        <p n="4">Upon my arrival at <emph>Charles Town</emph>, I waited on General <emph>Nicholson</emph>, then
+                            Governour of that Province, who received me with much Kindness, and continued his Favours during my
+                            stay in that Country. Nor Could I excuse my self of Ingratitude; without ackowledging the hospitable
+                            and kind Entertainment I generally met with amongst the Gentlemen of the Country, which much
+                            contributed to the Facilitating the Work I went about.</p>
+                        <p n="5">As I arrived at the beginning of the Summer I unexpectedly found this Country possessed not only
+                            with all the Animals and Vegetables of <emph>Virginia</emph>, but abounding with even a greater
+                            Variety. The inhabited Parts of <emph>Carolina</emph> extend West from the Sea about 60 Miles, and
+                            almost the whole Length of the Coast, being a level, low Country. In these Parts I continued the first
+                            Year searching after, collecting and describing the Animals and Plants. I then went to the Upper
+                            uninhabited Parts of the Country, and continued at and about <emph>Fort Moore</emph>, a small Fortress
+                            on the Banks of the River <emph>Savannah</emph>, which runs from thence a Course of 300 Miles down to
+                            the Sea, and is about the same Distance from ’its Source, in the Mountains.</p>
+                        <p n="6">I was much delighted to see Nature differ in these Upper Parts, and to find here abundance of
+                            Things not to be seen in the Lower Parts of the Country; this encouraged me to take several Journeys
+                            with the <emph>Indians</emph> higher up the Rivers, towards the Mountains, which afforded not only a
+                            Succession of new vegetable Appearances, but most delightful Prospects imaginable, besides the
+                            Diversion of Hunting Buffello’s, Bears, Panthers, and other wild Beasts. In these Excursions I
+                            employ’d an <emph>Indian</emph> to carry my Box, in which, besides Paper and Materials for Painting, I
+                            put dry’d Specimens of Plants, Seeds, &amp;c. as I gather’d them. To the Hospitality and Assistance of
+                            these Friendly <emph>Indians</emph>, I am much indebted, for I not only subsisted can what they shot,
+                            but their First Care was to erect a bark hut, at the approach of rain to keep me any my Cargo from
+                            wet.</p>
+                        <p n="7">I shall next proceed to an account of the Method I have observed in giving the Natural History of
+                            these Countries; to begin therefore with Plants, I had principally a regard to the Forest-Trees and
+                            Shurbs, shewing their several mechanical and other Uses, as in Building, Joynery, Agriculture, Food,
+                            and Medicine I have likewise taken notice of those Plants, that will bear our <emph>English</emph>
+                            Climate, which I have experiences from what I have growing at Mr. <emph>Bacon</emph>’s, Sucessor of
+                            the late Mr. <emph>Fairchild</emph> at <emph>Hoxton</emph>, where many have withstood the Rigour of
+                            several Winters, without Protection, while other Plants, tho’ from the same Country, have perished for
+                            Want of it.</p>
+                        <p n="8">As there is a greater Variety of the feather’d Kind than of any other Animals (at least to be
+                            come at) and as they excel in the Beauty of their Colours, and have a nearer relation to the Plants of
+                            which they feed on and frequent; I was incuded chiefly (so far as I could)to compleat an Account of
+                            them, rather than to describe promiscuously, Insects and other Animals; by which I must have omitted
+                            many of the Birds (for I had not Time to do all); by which method I believe very few Birds have
+                            escaped my knowledge, except some Water Fowl, and some of those which frequent the Sea.</p>
+                        <p n="9">Of Beasts there are not many species diferent from those in the old World: most of these I have
+                            figured, except those which do not materially differ from the same Species in <emph>Europe</emph>, and
+                            those which have been described by other Authors.</p>
+                        <p n="10">Of Serpents very few I believe have escaped me, for upon shewing my Designs of them to several
+                            of the most intelligent Persons, many of them confess’d not to have seen them all, and none of them
+                            pretended to have seen any other Kinds.</p>
+                        <p n="11">Of Fish I have described not above Five nor Six from <emph>Carolina</emph>, deferring that Work
+                            till my Arrival at the <emph>Bahama</emph> Islands; which as they afford but few Quadrupeds and Birds,
+                            I had more Time to describe the Fishes, and tho’ I had been often told they were very remarkable, I
+                            Was surprised to find how lavishly Nature had adorn’d them with <emph>Marks</emph> and
+                                <emph>Colours</emph> most admirable.</p>
+                        <p n="12">As for Insects these Countries abound in numerous kinds, but I was not able to delineate a great
+                            Number of them for the Reasons already assign’d: After my Continuance almost three Years in
+                                <emph>Carolina</emph> and the adjacent parts (which the <emph>Spaniards</emph> call
+                                <emph>Florida</emph> particularly that Province lately honour’d with the name of
+                                <emph>Georgia</emph> ) I went to <emph>Providence</emph>, one of the <emph>Bahama</emph> Islands;
+                            to which Place I was invited by his Excellency <emph>Charles Phinney</emph>, Esq; Governour of these
+                            Islands, and was entertain’d by him with much Hospitality and Kindness: From thence I visited many of
+                            the adjacent Islands, particularly <emph>Ilathera</emph>, <emph>Andros</emph>, <emph>Abbacco</emph>
+                            and other neighbouring Islands; tho’ these rocky Islands produce many fine Plants, which I have here
+                            described; I had principally a Regard to the Fish, there being not any, or a very few of them
+                            described by any Author: Both in <emph>Carolina</emph> and on these Islands, I made successive
+                            Collections of dry’d Plants and Seeds, and at these Islands more particularly I coIlected many
+                            Submarine productions, as Shells, Corallines, <emph xml:lang="la">Fruitices Marini</emph>, Sponges,
+                                <emph xml:lang="la">Astroites</emph>, &amp;c. These I imparted to my curious Friends, more
+                            particularly (as I had the greatest Obligations) to that great Naturalist and promoter of Science Sir
+                                <emph>Hans Sloane</emph>, Bart. to whose goodness I attribute much of the Success I had in this
+                            Undertaking.</p>
+                        <p n="13">As I was not bred a Painter I hope some faults in Perspective, and other Niceties, may be more
+                            readily excused, for I humbly conceive Plants, and other Things done in a Flat, tho’ exact manner, may
+                            serve the Purpose of Natural History, better in some measure than in a more bald and Painter like Way.
+                            In designing the Plants, I always did them while fresh and just gather’d: And the Animals, paricularly
+                            the Birds, I painted them while alive (except a very few) and gave them their Gestures pecu1iar to
+                            every kind of Bird, and where it would admit of, I have adapted the Birds to those Plants on which
+                            they fed, or have any Relation to. Fish which do not retain their Colours when out of their Element, I
+                            painted at different times, having a succession of them procur’d while the former lost their Colours:
+                            I dont pretend to have had this advantage in all, for some kinds I saw not plenty of, and of others I
+                            never saw above one or two: Reptiles will live many Months without Sustenance, so that I had no
+                            difficulty in Painting them while living.</p>
+                        <p n="14">At my return from <emph>America</emph>, in the Year 1726, I had the satisfaction of having my
+                            Labours approved of, and was honour’d with the Advice of several of the above-mention’d Gentlemen,
+                            most skill’d in the Learning of Nature who were pleased to think them worth Publishing, but that the
+                            Expence of Graving would make it too burthensome an Undertaking, this Opinion, from such good Judges,
+                            discouraged me from attemping it any further: And I alter’d my Design of going to <emph>Paris</emph>
+                            or <emph>Amsterdam</emph> where I at first proposed to have them done. At length by the kind Advice
+                            and Instructions of that inimitable Painter Mr. <emph>Joseph Goupy</emph>, I undertook and was
+                            initiated in the way of Etching them myself, which tho’ I may not have done in a Graver-like manner,
+                            choosing rather to omit their method of cross-Hatching, and to follow the humour of the Feathers,
+                            which is more laborious, and I hope has proved more to the purpose.</p>
+                        <p n="15">The Illuminating Natural History is so particularly Essential to the perfect understanding of
+                            it, that I may aver a clearer Idea may be conceiv’d from the Figures of Animals and Plants in their
+                            proper Colours, than from the most exact Description without them: Wherefore l have been less prolix
+                            in the Discription, judging it unnecessary to tire the Reader with Describing every Feather, yet I
+                            hope sufficient to distinguish them without Confusion.</p>
+                        <p n="16">As to the Plants I have given them the <emph>English</emph> and <emph>Indian</emph> Names they
+                            are known by in these Countries: And for the Latin Names I was beholden to the above-mention’d Learned
+                            and accurate Botanist Dr. <emph>Sherard</emph>. </p>
+                        <p n="17">Very few of the Birds having Names assign’d them in the Country, except some which had Indian
+                            Names; I have call’d them after European Birds of the same Genus, with an additional Epithet to
+                            distinguish them. As the Males of the Feather’d Kind (except a very few) are more elegantly colour’d
+                            than the Females, I have throughout exhibited the Cocks only, except two or three; and have added a
+                            short Description of the Hens, which they differ in colour from the Cocks, the want of which Method
+                            has caused great Confusion in works of this Nature. </p>
+                        <p n="18">Of the Paints, particularly Greens, used it the Illumination of Figures, I had principally a
+                            regard to those most resembling Nature, that were durable and would retain their Lustre, rejecting
+                            others very specious and shining, but of an unnatural Colour and fading Quality: Yet give me leave to
+                            observe there is no Degree of Green but what some Plants are possess’d of at different Timesof the
+                            Year, and the same Plant changes it’s Colour gradually with its Age, for in the Sping the Woods and
+                            all Plants in General are more Yellow and bright, and as the Summer advances the Greens grow deeper,
+                            and the nearer their Fall are yet of a more dark and dirty Colour. What I infer from thisis that by
+                            comparing a Painting with a living Plant, the difference of Colour, if any may proceed from the
+                            above-mention’d Cause.</p>
+                        <p n="19">As to the <emph>French</emph> Translation I am oblig’d to a very ingenious Gentleman, a Doctor
+                            of Physick, and a <emph>Frenchman</emph> born, whose Modesty will not permit me to mention his
+                            Name.</p>
+                    </div>
+                </div>
+                <div n="Fra" type="subsection">
+                    <div n="Text" xml:lang="fr">
+                        <p n="H">PREFACE</p>
+                        <p n="1">L’Inclination que je sentois dès ma jeunesse à rechercher la connoissance des Plantes, &amp; des
+                            autres production de la Nature, étoit fort traversée par mon éloignement de <emph>Londres</emph>, le
+                            centre de toutes les Sciences: j’ étois privé par là des occasions, &amp; des exemples qui auroient pu
+                            m’exciter à suivre mon panchant avec plus d’ardeur. Cependant il étoit tel, que l’étude &amp; la
+                            contemplation des productions de la Nature, que l’<emph>Angleterre</emph> me fournissoit, ne
+                            satisfaisant point ma curiosité, je conçus une envie passionnée d’aller voir dans leurs propres
+                            climats les Plantes &amp; les Animaux qui étoient étrangers à ma patrie. La <emph>Virginie</emph>
+                            étoit le pays où je pouvois aller le plus commodément, à 23 d’<emph>Avril</emph> 1712. Je songeois si
+                            peu dans ce tems là à entreprendre un ouvrage tel que celui que je donne au Public, que pendant les
+                            sept années que je restai dans ce pays, j’avoue à ma bonte que je ne m’ occupai qu’ à en observer
+                            &amp; admirer les productions, sans autre invention que de satisfaire mon goût: sulement j’envoyois
+                            des plantes desséchées, &amp; quelques unes des plus belles dans des pots, à quelques curieux de mes
+                            amis que m’en avoient prié. Mr. <emph>Dale</emph> de <emph>Braintree</emph> en la Province
+                                d’<emph>Essex</emph>, habile Apotiquaire &amp; Botaniste, étoit de ce nombre; mais outre des
+                            plantes desséchées, je lui envoyai quelques observations sur le pays. Il les communiqua à feu Mr.
+                                <emph>Guillaume Sheerard</emph>, un des plus fameux Botanistes de ce Siecle, qui me fit l’honneur
+                            de me recevoir au nombre de ses amis, lorsque je fus de retour en Angleterre en 1719. Ce fut par son
+                            avis que je résolus de commencer cette entreprise très conforme à mon inclination, malgré le peu de
+                            capacité que je me trouvois; mais comme l’exécution de ce dessein exigeoit beaucoup de dépense, c’est
+                            avec plaisir &amp; une extrême réconnaissance que je déclare ici que j’ai été aidé à la soutenir par
+                            la générosité de plusieurs Seigneurs &amp; autres dont je joins ici les noms;</p>
+                        <p n="2">
+                            <list>
+                                <item>Milord Duc de <emph>Chanois</emph>.</item>
+                                <item>Milord Comte <emph>d’Oxford</emph>.</item>
+                                <item>Milord Comte de <emph>Macclesfield</emph>.</item>
+                                <item>Milord <emph>Percival</emph>.</item>
+                                <item>Le Chevalier <emph>Markham</emph>, Membre de la Societé Royale.</item>
+                                <item>Le Chevalier <emph>Goodrick</emph>.</item>
+                                <item> Le Chevalier <emph>Hans Sloane</emph>, Président de la Societé Royale, &amp; du College des
+                                    Médecins.</item>
+                                <item>Le Colonel <emph>Nicholson</emph>, Gouverneur de la Caroline Méridionalle.</item>
+                                <item> Mr. <emph>Mead</emph>, Docteur en Médecine, &amp; Membre de la Societé Royale.</item>
+                                <item>Mr. <emph>Du Bois</emph>, Membre de la Societé Royale.</item>
+                                <item> Mr. <emph>Knight</emph>, Membre de la Societé Royale.</item>
+                                <item>Mr. <emph>Sherard</emph>, Docteur en Droit, &amp; Membre de la Societé Royale.</item>
+                            </list>
+                        </p>
+                        <p n="3">Je partis dans ce dessein d’ Angleterre pour la Caroline en 1722. Quoi que ce pays soit habité
+                            par les Anglois depuis plus d’un siecle, &amp; qu’il ne le cede à aucun autre par l’abondance &amp;
+                            les variétés des productions dont la nature l’a enrichi, cependant on n’en connoit gueres que ce qui
+                            entre dans le commerce, comme le ris, la poix, &amp; le goudron; c’est ce qui me détermina à m’y
+                            fixer, pour en étudier &amp; décrire l’histoire naturelle. J’y arrivai le 23 de May 1722, après un
+                            passage fort agréable, quoi qu’un peu long. Pendant le voyage nous primes souvent des plaisirs qui se
+                            présentent ordinairement en traversant l’Océan: nous primes des requins, nous harponames des
+                            marsouins, des dauphins, des bonites, des albicores, &amp; d’autres poissons. Quand nous avions le
+                            bonheur d’en attraper des trois dernieres fortes, nous ne manquions pas de nous en régaler; &amp; les
+                            matelots ne laissoient pas de s’accommoder de la chair de marsouins &amp; de requins, lorsqu’ils
+                            n’avoient vécu pendant long tems que de viandes salées. Un autre de nos amusements étoit de voir la
+                            chasse des dauphins après les poissons volans: les dauphins obligent les Poissons volans à s’élever
+                            hors de l’eau; mais comme ils nagent aussi víte que les autres volent, ils les poursuivent de si près,
+                            que les poissons volants lassés à fin, &amp; obligés de se replongere dans l’eau, parceque leurs ailes
+                            déssechées ne les peuvent plus soutenir, tombent souvent dans la gueule de leurs ennemis; quelquesois
+                            ils ne trouvent leur sureté ny dans l’un ny dans l’autre Element, car si tôt qu’ils s’echapent des
+                            Poissons qui les poursuivent dans l’eau, ils sont pris dans l’Air par des Oiseaux de proye. Mais ce
+                            qui nous parut de plus singulier en ce genre, ce fut qu’en la latitude de 26 Degrés vers le Nord,
+                            environ au milieu des deux Continents de l’Afrique &amp; de l’Amérique, qui je crois ne peut pas être
+                            moins eloigné des Terres que de 600 lieües, nous vimes un Hibou volant au dessus de nótre Vaisseau:
+                            Ces oiseaux ont les ailes courtes, &amp; l’on remarque qu’ils ne peuvent pas voler fort loin; les
+                            Enfants méme se divertissent à les lasser à quoi ils reüssissent après la seconde ou troisieme fois
+                            qu’ils les ont fait partir. Ce Hibou disparut après avoir fait quelques tentatives pour se reposer. Et
+                            le même jour, qui etoit le 22 de May, un Epervier, avec la tête, la poitrine &amp; le ventre blancs,
+                            parut de la même maniere; nous vimes aussi quelques Hirondelles, mais nul ne se hazarda de se reposer
+                            sur aucun endroit du Navire. Il n’ya a point d’Oiseaux qui semblent pouvoir se soutenir plus long tems
+                            sur leurs ailes, que l’Epervier &amp; l’Hirondelle, mais qu’un Hibou ait été capable de continuer son
+                            vol pendant si long tems, c’est ce qui me semble fort surprennant. </p>
+                        <p n="4">A mon arrivée à Charles-town, je rendis mes devoirs au Géneral <emph>Nicholson</emph>, qui étoit
+                            alors Gouverneur de la Province; il me reçut avec beaucoup de bonté, &amp; continua de metraiter de
+                            même pendant mon sejour en ce païs, Je ne pourrois me disculper d’ingratitude, si je ne temoignois me
+                            reconeoissance de l’hospitalitè, &amp; des manieres honnêtes que j’ai trouveèes dans la plus part des
+                            principaux Habitans, ce qui facilita beaucoup mon dessein.</p>
+                        <p n="5">Comme j’arrivai tout au commencement de l’Eté, je trouvai, contra mon attente, que ce pais avoit
+                            non seulement tous les Animaux &amp; Végétaux de la Virginie, mais én avoit même une plus grande
+                            varieté. La Partie de la Caroline qui est habitée s’étend depuis la Mer vers le Couchant environ 60
+                            milles, &amp; presque toute la longueur de la Cóte; c’est un pain bas &amp; uni. J’y demeurai la
+                            premiere année, m’occupant à chercher, à ramasser &amp; à décrire les Animaux &amp; les Plantes.
+                            Ensuite j’avancai dans la partie inhabitée, &amp; restai quelques mois au Fort Moore, ou aux Environs;
+                            c’est une petite Forteresse située sur les Bords de la Riviere Savanna; Elle sait trois cent milles de
+                            chemin de là jusques à la mer, &amp; en remontant à sa source dans les Montagnes il n’ya pas moin de
+                            distance.</p>
+                        <p n="6">J’étois charmé de trouver dans ces quartiers les productions de la Nature si différentes; &amp;
+                            un infinité de choses, qui ne se rencontroient pas dans la partie basse de ces pays. Cela m’encouragea
+                            à entreprendre plusieurs voyages avec les Indiens vers les montagnes en rémontant les rivieres, ou
+                            j’eus le plaisir de voir successivement de nouveaux Phénomenes végétaux, &amp; des vûes les plus
+                            charmantes que l’imagination se puisse former, outre le divertissement de la chasse des buffles, des
+                            sangliers, des pantheres, &amp; d’autres bêtes sauvages. Dans ces courses je me servois d’un Indien
+                            pour porter une cassete, dans laquelle, outre du papier &amp; ce qui est nécessaire pour dessiner, je
+                            mettois des Plantes desséchées, des Graines, &amp; tout ce que je ramassois. Je dois beaucoup à
+                            l’hospitalité, &amp; à l’assistance des ces Indiens; car outre que je vivois de leur chasse, leur
+                            prémier soin, si tôte que l’on étoit ménacé de pluie, étoit de me faire en diligence, une hutte
+                            d’écorce, pour me mettre à couvert avec ma cargaison.</p>
+                        <p n="7">Je vais à présent rendre compte de la méthode que j’ai suivie en composant l’histoire naturelle
+                            de ces Pays, que je donne au Public; &amp; pour commencer par les Plantes, je me suis surtout attaché
+                            aux Arbres des forêts, &amp; aux Arbrisseaux; j’ai fait voir leurs différens usages mécaniques &amp;
+                            autres pour les bâtiments, les ouvrages de Menuiserie, l’Agriculture, la nourriture des hommes, &amp;
+                            des Animaux, &amp; la Médicine. J’ai aussi remarqué les Plantes qui souffrent le climat d’Angleterre,
+                            ce que j’ai connu par l’expérience en observant ce qui se passe dans le jardin de Mr.
+                                <emph>Bacon</emph>, successeur de feu Mr. <emph>Fairchild</emph> à Hoxton, où Plusieurs de ces
+                            Plantes ont résisté à la rigueur de plusieurs Hives, quoi qu’exposées en plein air, tandis que
+                            d’autres du même pays, sont mortes, parce qu’elles n’étoient pas garanties du froid.</p>
+                        <p n="8">La grande variété des Oiseaux, (qui passe de beaucoup celle des autres Animaux, du moins de ceux
+                            que l’on peut attraper) la beauté des couleurs dont leur plumage est orné, &amp; le rapport qu’ils ont
+                            le plus souvent avec les plantes dont ils se nourrissent, ou qu’ils fréquentent; tout cela m’engagea à
+                            en faire, autant qu’ils me seroit possible, une description complette, plutôt que de donner pesle
+                            mesle celles des Insectes &amp; d’autres Animaux: ce qui m’auroit obligé d’omettre plusieurs Oiseaux,
+                            car je n’avons pas le temps de tout faire. De cette manière je crois que peu d’Oiseaux m’ont échappé,
+                            excepté quelques Oiseaux aquatiques, &amp; quelques uns de chaux qui fréquentent la Mer.</p>
+                        <p n="9">Pour les Quadrupedes, il n’y en a que peu d’espèces différentes de celles qui se trouvent dans le
+                            vieux Monde: j’en ai dessiné la plus grande partie, hors ceux qui ne different pas beaucoup de la même
+                            espèce en Europe, ou chaux qui ont été décrits par d’autres Auteurs.</p>
+                        <p n="10">Je pense que très peux de Serpens m’ont échappé; car en faisant voir mes desseins à un grand
+                            nombre de personnes très intelligentes en ces matières, plusieurs m’ont avoué qu’ils ne les avouent
+                            pas tous vûs auparavant, &amp; personne n’a prétendu en connaître d’autres espèces.</p>
+                        <p n="11">Je n’ai pas décrit plus de cinq ou six espèces de Poissons de la Caroline: je renvoyai ce
+                            travail jusque’`a mon arrivée aux îles Bahama: on ny’y torve que peu d’Oiseaux &amp; d’Animaux à
+                            quatre liés, ainsi je comtois y avoir plus de temps pour décrire les Poissons; &amp; quoi qu’on m’eut
+                            prévenu su leur beauté singuliere je ne laissai pas d’être surpris, en voyant avec quelle profusion la
+                            Nature les a ornés de couleurs &amp; de taches, dont l’éclat mérite la plus grande admiration.</p>
+                        <p n="12">Ces pays abondent en différentes espèces d’Insectes; mais le raisons, que j’ai déjà reportées,
+                            m’ont empêché d’en dessiner un grand nombre. Après avoir été pendant près de trois ans à la Caroline,
+                            &amp; aux environs, particulièrement dans cette Province qu’on a honorée du nom de Georgie (que les
+                            Espagnols appellent la Floride) j’allai à la Providence, qui est une des îles Bahama; j’y avoir été
+                            invitée par son Excellence Mr. <emph>Charles Phinney</emph>, Gouverneur de ces îles, qui me reçut chez
+                            lui, &amp; m’y retint pendant tout mon séjour avec beaucoup de bonté. De là je visitai plusieurs des
+                            îles voisines, en particulier Ilathere, Andros, Abbaco, &amp; quelques autres des environs. Quoi que
+                            ces îles pleines de rochers, produisent plusieurs Plantes très curieuses, que j’ai décrites ici, je
+                            m’attachai principalement aux Poissons, parce qu’il n’y en a aucun, ou du moins très peu qui ayant été
+                            décrits par les Auteurs. A la Caroline &amp; dans ces îles je fis successivement des collections de
+                            Plantes desséchées &amp; de Semences; &amp; sur tout dans ces îles je ramassai plusieurs productions
+                            de la Mer, comme des Coquilles, des Coraux, des Arbrisseaux marin, des Eponges, des Astroites, &amp;c.
+                            J’en ai fait présent à quelques curieux de mes Amis, &amp; sur tout, ainsi que j’y étais obligé, à ce
+                            grand Naturaliste, &amp; Patron des Sciences, Mr. le Chevalier <emph>Sloane</emph>, car j’avoue que
+                            c’est à sa bonté que je suis redevable du succès, que j’ai eu dans cette entreprise.</p>
+                        <p n="13">Je ne suis pas peintre de profession, ainsi j’espere qu’on excusera plus aisément quelques
+                            fautes de Perspective, &amp; quelques autres finesses de l’Art, où j’ai peut-être manqué; car il me
+                            semble que les Plantes, ou les autres choses que j’ai dessinées exactement, quoi que sans Perspective,
+                            peuvent être aussi utilise pour l’Histoire naturelle, &amp; même plus, que si elles étoilent exprimées
+                            plus hardiment, &amp; d’une manière plus pictoresque. J’ai toujours dessiné les Plantes toutes
+                            fraiches, &amp; dans le moment qu’on venait de les cueillir, &amp; les Animaux, sur tout les Oiseaux,
+                            pendant qu’ils étoilent vivants, excepté un très petit nombre; je leur ai donné à chacun son attitude
+                            propre; &amp; autant qu’il a été possible, j’ai joint les Oiseaux aux Plantes desquelles ils se
+                            nourrissent, ou aux-quelles ils ont quelque rapport. J’ai peint, à différentes reprises, les Poissons
+                            qui perdent leurs couleurs, lorsqu’ils sont hors de l’eau: on m’en fournissait toûjours de nouveaux,
+                            quand les autres ne pouvaient plus me servir; cependant je n’ai pas eu cette commodité pour tous, car
+                            il y en a quelques espèces, que j’ai trouvées très rares, &amp; de quelques unes je n’ai vû qu’un ou
+                            deux Poissons. Pour les Reptiles, comme ils vivent plusieurs mois sans manger, je n’ai trouvé aucune
+                            difficulté à les peindre vivans.</p>
+
+                        <p n="14">A mon retour de l’Amérique en l’année 1726, j’eus la satisfaction de voir mon travail approuvé;
+                            &amp; plusieurs de ceux que j’ai nommés ci-dessus, gens très versés dans l’Histoire naturelle, m’
+                            honorerent de leurs avis, &amp; jugeant que mon ouvrage méritait d’être publié, ils crurent que la
+                            dépense de la gravure rendroit cette entreprise trop difficile. Ce sentiment quid venait de si bons
+                            juges me découragea alors de la pousser plus loin, &amp; je quittai le dessein d’aller à Paris ou à
+                            Amsterdam où j’avons projeté d’abord de faire graver mes desseins. Enfin, encouragé par les bons avis,
+                            &amp; les instructions de cet inimitable Peintre Mr. <emph>Joseph Goupy</emph>, j’ai appris à les
+                            graver moi même; &amp; quoi que je n’aie pas suivi la méthode des graveurs, qui est de hacher les
+                            traits, aimant mieux suivre le trait des plumes, ce quid demande plus de travail, je me latte que ma
+                            manière a mieux réussi pour mon dessein.</p>
+
+                        <p n="15">Il est si nécessaire, pour bien entendre l’Histoire naturelle, d’enluminer les desseins qui en
+                            représentent quelque partie, que je puis assûrer qu’on se formera une meilleure idée des Plantes,
+                            &amp; des Animaux en les voyant représentés avec leurs couleurs naturelles que par la description la
+                            plus exacte sans le secours des figures: c’est pourquoi je me suis moins étendu dans mes descriptions,
+                            &amp; j’ai cru qu’il était inutile de fatiguer le Lecteur, en s’arrêtant sur chaque plume en
+                            particulier; cependant j’espere en avoir assez dit pour les distinguer sans confusion.</p>
+
+                        <p n="16">J’ai donné aux Plantes les noms Anglois &amp; Indiens, par lesquelles elles sont connues dans ce
+                            pays là; &amp; le Dr. <emph>Sherard</emph>, ce savant &amp; exacte Botaniste, a eu la bonté de me
+                            fournier les noms Latins.</p>
+
+                        <p n="17">Comme dans le pays il y a peu d’Oiseau qui ayant des noms particuliers, excepté quelques uns qui
+                            ont des noms Indiens, je leur ai donné ceux des Oiseaux Européens de la même espèce, avec un épithète
+                            qui les distingue. Dans tout mon ouvrage, je n’ai représenté &amp; décrit que les mâles de chaque
+                            espèce d’Oiseaux, parceque généralement leurs couleurs sont plus belles que celles des fémelles, hors
+                            eux ou trois exemples où j’ai ajouté une courte descriptions de la fémelle, &amp; des couleurs qui la
+                            distinguent du mâle: en négligeant cette méthode, il s’est glissé beaucoup de fautes dans les ouvrages
+                            de ce genre.</p>
+
+                        <p n="18">Dans le choix de couleurs, &amp; en particulier des verdes, pour enluminer les planches, j’ai
+                            sur tout en attention à employer celles qui approchent le plus du naturel, qui sont les plus durables,
+                            &amp; conservent le mieux leur lustre; &amp; j’ai rejetté les autres, quoi que brillantes &amp;
+                            apparentes, mais peux naturelles, &amp; d’une qualité à se passer bientôt. Cependant qu’on me permette
+                            de remarquer qu’il n’y a point de nuance de vers dont quelques Plantes ne soient colorées en
+                            différents temps de l’année; &amp; la même Plante change sa couleur en vieillissant; car dans le
+                            Printems les Plantes des Bois, &amp; toutes les Plantes en général, sont plus jaunes &amp; plus
+                            brillantes, &amp; à mesure que l’Eté avance, le vers devient plus foncé, &amp; vers la rems de la
+                            chute il est encore plus obscur &amp; plus sale; d’où je conclus que la différence de couleur, si on
+                            en trouve, en comparant une Plante vivante avec sa représentation, peut procéder de la cause ci-dessus
+                            mentionnée.</p>
+
+                        <p n="19">Quant à la traduction Françoise, un de mes Amis, Docteur en Médecine, &amp; François, a bien
+                            voulu s’en donner la peine, à condition qu’ils ne seroit pas nommé.</p>
+
+
+                    </div>
+                </div>
+            </div>
+            <div n="1" type="section">
+                <div n="Plate" type="subsection">
+                    <div n="Figure">
+                        <p n="Fig1">
+                            <figure>
+                                <figDesc facs="urn:cite:fufolioimg:Caroliniana.CatesbyNH1_13_t001">
+                                    <ref facs="urn:cite:fufolioimg:Caroliniana.CatesbyNH1_13_t001:0.0413,0.0655,0.8775,0.8728">
+                                        <caption> T.1 <foreign xml:lang="la">Aquila capite Albo.</foreign> The White headed Eagle.
+                                        </caption>
+                                    </ref>
+                                    <ref facs="urn:cite:fufolioimg:Caroliniana.CatesbyNH1_13_t001:0.4625,0.4181,0.4563,0.5356">
+                                        <caption>The Size of the Eagles head</caption>
+                                    </ref>
+                                </figDesc>
+                            </figure>
+                        </p>
+                    </div>
+                </div>
+                <div n="Text" type="subsection">
+                    <div n="Eng" xml:lang="en">
+                        <p n="H"><foreign xml:lang="la">Aquila Capite Albo</foreign>: The Bald Eagle.</p>
+                        <p n="1">This bird weighs nine pounds: the Iris of the eye white; over which is a prominence, cover’d with
+                            a yellow skin; the Bill yellow, with the Sear of the same colour: the Legs and Feet are yellow; the
+                            Tallons black; the Head and part of the Neck is white, as is the Tail; all the rest of the Body, and
+                            Wings, are brown.</p>
+                        <p n="2">Tho’ it is an Eagle of a small size, yet has great strength and spirit, preying on Pigs, Lambs,
+                            and Fawns.</p>
+                        <p n="3">They always make their Nests near the sea, or great rivers, and usually on old, dead Pine or
+                            Cypress-trees, continuing to build annually on the same tree, till it falls. Tho' he is so formidable
+                            to all birds, yet he suffers them to breed near his royal nest without molestation; particularly the
+                            fishing and other Hawks, Herons, &amp;c. which all make their nests on high trees; and in some places
+                            are so near one another, that they appear like a Rookery. This Bird is called the BALD EAGLE, both in
+                            Virginia and Carolina, tho’ his head is as much feather’d as the other parts of his body.</p>
+                        <p n="4">Both Cock and Hen have white Heads, and their other parts differ very little from one
+                            another.</p>
+                    </div>
+                    <div n="Fra" xml:lang="fr">
+                        <p n="H"><foreign xml:lang="la">Aquila Capite Albo</foreign>: Aigle à tête blanche.</p>
+                        <p n="1">Cet oiseau pese neuf livres: l’iris de son oeil est blanche, au dessus de laquelle il y a une
+                            avance couverte d’une peau jaune; le bec &amp; cette peau qui couvre la base de la mandibule
+                            superieure est jaune, aussi bien que les jambes &amp; les piés; ses ongles sont noires, sa tête, &amp;
+                            une partie de son col, de même que sa queüe, sont blanche; le reste du corps &amp; les ailes sont
+                            brunes.</p>
+                        <p n="2">Quoique ce soit une aigle d’une grandeur médiocre, elle a beaucoup de force &amp; de courage:
+                            elle enleve de jeunes cochons, des agneaux, &amp; même des faons.</p>
+                        <p n="3">Ces oiseaux sont toûjours leurs nids prés de la mer ou des fleuves, &amp; ordinairement sur un
+                            vieux Pin ou sur un Cypres, &amp; les sont tous les ans sur le même arbre, jusqu’à ce qu’il tombe.
+                            Quoique cette aigle soit très redoutable à tous les oiseaux, elle leur laisse cependant nourrir leurs
+                            petits prés de son aire, sans les incommoder: c’est ce qu’elle fait sur tout à l’égard des faucons
+                            pêcheurs, ou autres, des herons, &amp;c. qui sont tous leurs nids sur de grands arbres: on en voit
+                            quelque fois si près les uns des autres que l’assemblage de ces nids paroit former une espece de
+                            République. On appelle cet oiseau dans la Virginie &amp; dan la Caroline l”Aigle chauve, quoiqu’il y
+                            ait sur sa tête autant de plumage que sur les autres parties de son corps.</p>
+                        <p n="4">Le mâle &amp; la femelle ont tous deux la tête blanche; il n’y a qu’une trés-petite difference
+                            entre les autres parties de leur corps.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div n="2" type="section">
+                <div n="Plate" type="subsection">
+                    <div n="Figure">
+                        <p n="Fig2">
+                            <figure>
+                                <figDesc facs="urn:cite:fufolioimg:Caroliniana.CatesbyNH1_16_t002">
+                                    <ref facs="urn:cite:fufolioimg:Caroliniana.CatesbyNH1_16_t002:0.085,0.0782,0.1163,0.0681">
+                                        <caption> T.2 <foreign xml:lang="la">Accipter Piscatorious</foreign>: The Fishing Hawk.
+                                        </caption>
+                                    </ref>
+                                </figDesc>
+                            </figure>
+                        </p>
+                    </div>
+                </div>
+                <div n="Text" type="subsection">
+                    <div n="Eng" xml:lang="en">
+                        <p n="H"><foreign xml:lang="la">Accipter Piscatorious</foreign>: The Fishing Hawk.</p>
+                        <p n="1">This Bird weighs three pounds and a quarter; from one end of the wing to the other extended, five
+                            foot, five inches: the Bill is black, with a blue sear; the Iris of the eye yellow; the Crown of the
+                            head brown, with a mixture of white feathers: from each Eye, backwards, runs a brown stripe; all the
+                            upper part of the Back, Wing and Tail, dark-brown; the Throat, Neck and Belly, white: the Legs and
+                            Feet are remarkably rough and scaly, and of a pale-blue colour; the Tallons black, and almost of an
+                            equal size: the Feathers of the Thighs are short, and adhere close to them, contrary to others of the
+                            Hawk kind; which nature seems to have designed for their more easy penetrating the water.</p>
+
+                        <p n="2">Their manner of fishing is (after hovering a while over the water) to precipitate into it with
+                            prodigious swiftness; where it remains for some minutes, and seldom rises without a fish: which the
+                            Bald Eagle (which is generally on the watch) no sooner spies, but at him furiously he flies: the Hawk
+                            mounts, screaming out, but the Eagle always soars above him, and compels the Hawk to let it fall;
+                            which the Eagle feldom fails of catching, before it reaches the Water. It is remarkable, that whenever
+                            the Hawk catches a Fish, he calls, as if it were, for the Eagle; who always obeys the call, if within
+                            hearing.</p>
+
+                        <p n="3">The lower parts of the Rivers and Creeks near the sea abound most with these Eagles and Hawks,
+                            where these diverting contests are frequently seen.</p>
+                    </div>
+                    <div n="Fra" xml:lang="fr">
+                        <p n="H"><foreign xml:lang="la">Accipter Piscatorious</foreign>: Faucon pêcheur.</p>
+                        <p n="1">Cet oiseau pese trois livres &amp; un quart. Lorsque les ailes sont déployées il y a cinq piés
+                            pouces depuis l’extremité de l’une, jusque’ à l’extremité de l’autre. Son bec est noir, &amp; la peau
+                            qui couvre la base de la mandibule superieure est bleue, l’iris de l’oeil jaune, le sommet de la tête
+                            est brun, avec un mélange de plumes blanches; il y a de chaque côté du cou une raye brune qui commence
+                            auprès de l’oeil, &amp; qui s’allonge en arriere. Tout le dessus de son dos, aussi bien que ses ailes
+                            &amp; sa queüe sont d’un brun foncé. Il a la gorge, le cou, &amp; le ventre blancs; ses jambes &amp;
+                            ses mains sont couvertes d’une écaille raboteuse, d’un bleu pale: ses doigts sont noirs &amp; presque
+                            d’une égale grandeur, &amp; au contraire des autres especes de Faucons, les plumes des cuisses de
+                            ceux-ci sont courtes &amp; s’appliquent étroitement sur la peau, la nature les ayant ainsi disposées,
+                            à ce qu’il paroît, afin que ces oiseaux pussent pénétrer plus aisément dans l’eau, ce qu’elle a refusé
+                            aux autres especes de Faucons.</p>
+
+                        <p n="2">Leur manier de pécher est celle-ci: après que le Faucon a plané quelque tems au dessus de l’eau,
+                            il s’y précipite d’une vitesse surprenante, y reste quelques minutes, &amp; en sort rarement sans
+                            poisson, ce que l’ Aigle, qui est ordinairement aux aguets, n’a pas plutôt apperçu quelle vient à lui
+                            avec fureur; le Faucon s’éleve en poussant des cris, mais l’Aigle vole toujours au dessus de lui,
+                            &amp; le force de lacher sa proye, qu’elle ne manque guéres d’attraper avant que cette proye tombe
+                            dans l’eau. Il est à remarquer que toutes les fois que le Faucon prend un poisson, il appelle, pour
+                            ainsi dire, l’Aigle, qui obéit toujours si elle est à portée de l’entendre.</p>
+
+                        <p n="3">Le bas des rivieres &amp; les petites bayes de la mer sont des lieux frequentés par cette forte
+                            d’Aigles &amp; de Faucons: on y voit souvent leurs disputes, qui sont assez divertissantes.</p>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div n="3" type="section">
+                <div n="Plate" type="subsection">
+                    <div n="Figure">
+                        <p n="Fig3">
+                            <figure>
+                                <figDesc facs="urn:cite:fufolioimg:Caroliniana.CatesbyNH1_17_t003">
+                                    <ref facs="urn:cite:fufolioimg:Caroliniana.CatesbyNH1_17_t003:0.75,0.0832,0.13,0.0915">
+                                        <caption> T.3 <foreign xml:lang="lat">Accipiter Palumbarius</foreign> The Pigeon Hawk —
+                                        </caption>
+                                    </ref>
+                                </figDesc>
+                            </figure>
+                        </p>
+                    </div>
+                </div>
+                <div n="Text" type="subsection">
+                    <div n="Eng" xml:lang="en">
+                        <p n="H"><foreign xml:lang="la">Accipiter Palumbarius</foreign>: The Pigeon-Hawk.</p>
+                        <p n="1">It weighs six ounces: the Bill at the point black, at the basis whitish; the Iris of the eye
+                            yellow: the Basis of the upper mandible is cover’d with a yellow Sear: all the upper part of the Body,
+                            Wings and Tail is brown: the interior vanes of the quill-feathers have large red spots: the Tail is
+                            transversly marked with four white lines; the Throat, Breast and Belly white, intermix’d with brown
+                            feathers; the small feathers that cover the thighs, reach within half an inch of the feet, and are
+                            white, with a tincture of red, beset with long spots of brown; the Legs and Feet yellow. It is a very
+                            swift and bold Hawk, preying on Pigeons and wild Turkeys while they are young.</p>
+                    </div>
+                    <div n="Fra" xml:lang="fr">
+                        <p n="H"><foreign xml:lang="la">Accipiter Palumbarius</foreign>: Epervier à pigeons.</p>
+                        <p n="1">Cet oiseau pese six onces. Il a la pointe du bec noire, &amp; la base blanchâtre; l’iris de
+                            l’oeil jaune: la base de la mandibule superieure est courvert d’une peau jaune; tout le haut du corps,
+                            les ailes, &amp; la queüe sont brunes. Les barbes interieures des plumes de l’aile ont de grandes
+                            taches rouges. La queüe est marquée de quatre rayes blanches en travers; la gorge, la poitrine, &amp;
+                            le ventre sont blancs, entremêtés de plumes brunes; les petites plumes equi couvrent les cuiffes vont
+                            jusqu’à un demi pouce des piés &amp; sont blanches, avec une teinture de rouge, environnées de longues
+                            taches brunes; les jambes &amp; les piés sont jaunes. C’est un épervier fort vite &amp; fort hardi; il
+                            enleve les pigeons, &amp; même les dindons sauvages lors qu’ils sont jeunes.</p>
+
+                    </div>
+                </div>
+            </div>
+            <!--
+            <div n="X" type="section">
+                <div n="Plate" type="subsection">
+                    <div n="Figure">
+                        <p n="FigX">
+                            <figure>
+                                <figDesc facs="urn:whole plate">
+                                    <ref
+                                        facs="urn:label-subsection-of-image">
+                                        <caption>
+                                            Catpion
+                                        </caption>
+                                    </ref>
+                                    
+                                </figDesc>
+                            </figure>
+                        </p>
+                    </div>
+                </div>
+                <div n="Text" type="subsection">
+                    <div n="Eng" xml:lang="en">
+                        <p n="H"><foreign xml:lang="la">Latin Name</foreign>: English Name.</p>
+                        <p n="1">English text</p>
+                    </div>
+                    <div n="Fra" xml:lang="fr">
+                        <p n="H"><foreign xml:lang="la">Latin Name</foreign>: French Name.</p>
+                        <p n="1">French text.</p>
+                        
+                    </div>
+                </div>
+            </div>
+            -->
+
+        </body>
+    </text>
+</TEI>
