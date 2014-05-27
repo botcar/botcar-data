@@ -11,6 +11,10 @@
     
     <!-- Botanica Caroliniana Indices -->
     
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="lawson-label-image.tsv"></source>
+    </index>
+    
     <!--        Taxonomy: Parent/Child relations -->
     
     <index verb="bctaxon:childOf" inverse="bctaxon:hasChild">
