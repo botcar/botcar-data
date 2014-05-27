@@ -1,19 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="file:TextInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TextInventory tiversion="5.0.rc.1" xmlns="http://chs.harvard.edu/xmlns/cts">
-    <ctsnamespace abbr="greekLit" ns="chs.harvard.edu/ctsns">
-        <description xml:lang="eng">The "First Thousand Years of Greek" project's inventory of Greek texts.</description>
-    </ctsnamespace>
-    <ctsnamespace abbr="latinLit" ns="http://perseus.org/namespaces/cts/latinLit">
-        <description xml:lang="eng">Latin texts hosted by the Perseus Digital Library</description>
-    </ctsnamespace>
+   
     
     <ctsnamespace abbr="botcar" ns="folio.furman.edu/ctsns">
         <description xml:lang="eng">Botanica Caroliniana.</description>
     </ctsnamespace>
 
+    <textgroup urn="urn:cts:botcar:hslabels">
+        <groupname xml:lang="eng">Herb. Sloane Labels</groupname>
+        <work urn="urn:cts:botcar:hslabels.jlord" xml:lang="eng">
+            <title xml:lang="eng">Joseph Lord. Specimen Lables</title>
+            <edition urn="urn:cts:botcar:hslabels.jlord.fu01">
+                <label xml:lang="eng">Transcribed by A. Hackney Blackwell, Furman University</label>
+                <description xml:lang="eng">Joseph Lord's labels on botanical specimens in the Sloane Herbarium, H.S. 158, 267, 268, 284, 285. Transcribed by A. Hackney Blackwell.</description>
+            <online docname="Lord_Labels.xml">
+                <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                <citationMapping>
+                    <citation label="Section" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']">
+                        <citation label="Paragraph" scope="/tei:TEI/tei:text/tei:body/tei:div[@n='?']" xpath="/tei:p[@n='?']"/>
+                    </citation>
+                </citationMapping>
+            </online>
+            </edition>
+        </work>
+    </textgroup>
     
-  
     
     <textgroup urn="urn:cts:botcar:lawson">
         <groupname xml:lang="eng">John Lawson</groupname>
