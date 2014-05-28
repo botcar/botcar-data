@@ -1,2 +1,3 @@
-LabelURN,imgURN
-urn:cite:botcar:lordLabels.1,"imgUrnGoesHere"
+LabelURN,imgURN,folioURN
+urn:cite:botcar:lordLabels.1,"urn:cite:fufolioimg:BotCarLord.Lord_HS158_005_2375@0.7097,0.1968,0.2482,0.0755",urn:cite:botcar:LordFolios.HS158_005
+
