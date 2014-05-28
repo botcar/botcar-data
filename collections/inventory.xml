@@ -222,7 +222,11 @@
         <citeProperty label="Internal sequence number" name="Sequence" type="number"/>
     </citeCollection>
     
-   
- 
+    <citeCollection canonicalId="URN" label="Label" urn="urn:cite:botcar:LordFolios">
+        <namespaceMapping abbr="botcar" fullValue="http://classics.furman.edu/datans"/>
+       <citeProperty name="URN" label="URN" type="citeurn"/>
+        <citeProperty name="Label" label="Label" type="string"></citeProperty>
+   </citeCollection>
+    
 
 </collectionService>
