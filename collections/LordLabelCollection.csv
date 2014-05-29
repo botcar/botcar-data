@@ -1,2 +1,15 @@
-LabelURN,imgURN
-urn:cite:botcar:lordLabels.1,"imgUrnGoesHere"
+LabelURN,imgURN,folioURN
+urn:cite:botcar:lordLabels.1,"urn:cite:fufolioimg:BotCarLord.Lord_HS158_005_2375@0.7097,0.1968,0.2482,0.0755",urn:cite:botcar:LordFolios.HS158_005
+urn:cite:botcar:lordLabels.2,"urn:cite:fufolioimg:BotCarLord.Lord_HS158_005_2375@0.2002,0.1047,0.2803,0.1272",urn:cite:botcar:LordFolios.HS158_005
+urn:cite:botcar:lordLabels.3,"urn:cite:fufolioimg:BotCarLord.Lord_HS158_005_2375@0.6997,0.3214,0.2693,0.0749",urn:cite:botcar:LordFolios.HS158_005
+urn:cite:botcar:lordLabels.4,"urn:cite:fufolioimg:BotCarLord.Lord_HS158_005_2375@0.1401,0.7011,0.5686,0.059",urn:cite:botcar:LordFolios.HS158_005
+urn:cite:botcar:lordLabels.5,"urn:cite:fufolioimg:BotCarLord.Lord_HS158_016_2376@0.6076,0.4129,0.2492,0.2757",urn:cite:botcar:LordFolios.HS158_016
+urn:cite:botcar:lordLabels.6,"urn:cite:fufolioimg:BotCarLord.Lord_HS158_016_2376@0.2973,0.0225,0.2853,0.0915",urn:cite:botcar:LordFolios.HS158_016
+urn:cite:botcar:lordLabels.7,"urn:cite:fufolioimg:BotCarLord.Lord_HS158_016_2376@0.1451,0.4135,0.2312,0.0875",urn:cite:botcar:LordFolios.HS158_016
+urn:cite:botcar:lordLabels.8,"urn:cite:fufolioimg:BotCarLord.Lord_HS158_016_2376@0.1111,0.5639,0.2743,0.0828",urn:cite:botcar:LordFolios.HS158_016
+urn:cite:botcar:lordLabels.9,"urn:cite:fufolioimg:BotCarLord.Lord_HS158_016_2376@0.0931,0.6461,0.0841,0.2266",urn:cite:botcar:LordFolios.HS158_016
+urn:cite:botcar:lordLabels.10,"urn:cite:fufolioimg:BotCarLord.Lord_HS158_016_2376@0.1532,0.7442,0.2693,0.057",urn:cite:botcar:LordFolios.HS158_016
+urn:cite:botcar:lordLabels.11,"urn:cite:fufolioimg:BotCarLord.Lord_HS158_016_2376@0.5996,0.7422,0.2623,0.0769",urn:cite:botcar:LordFolios.HS158_016
+urn:cite:botcar:lordLabels.12,"urn:cite:fufolioimg:BotCarLord.Lord_HS158_017_2377@0.2963,0.5116,0.4905,0.1219",urn:cite:botcar:LordFolios.HS158_017
+urn:cite:botcar:lordLabels.13,"urn:cite:fufolioimg:BotCarLord.Lord_HS158_017_2377@0.2573,0.6746,0.3724,0.061",urn:cite:botcar:LordFolios.HS158_017
+urn:cite:botcar:lordLabels.14,"urn:cite:fufolioimg:BotCarLord.Lord_HS158_018_2378@0.1862,0.4831,0.2172,0.0583",urn:cite:botcar:LordFolios.HS158_018
