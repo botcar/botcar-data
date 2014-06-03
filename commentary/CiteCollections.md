@@ -1,6 +1,6 @@
 # Cite Collections
 
-![Cite .rng schema diagram](https://github.com/botcar/botcar-data/blob/master/commentary/Images/Cite%20Collection%20Schema.png)
+![Cite .rng schema diagram](https://raw.githubusercontent.com/botcar/botcar-data/master/commentary/Images/Cite%20Collection%20Schema.png)
 
 The cite structure revolves around the idea that the world is divided into two things, text and objects, and it is used to represent the latter. The 3 .rng schema files that define cite collections allow us to group cite objects together based on similar properties.
 
