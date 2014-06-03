@@ -32,11 +32,13 @@ However, there are still some issues with this design:
 
 ## Web
 
-To solve these problems, and to make dataset formation general and extensible, I stopped looking at our data as a tree and began to look at it as a web. In a tree each node or bit of information has nodes it is related to above it (parents), and nodes that are related to it below (children). In a web you also have nodes and vertices, but they can be linked however you please.
+To solve these problems, and to make dataset formation general and extensible, I stopped looking at our data as a tree and began to look at it as a web. In a tree each node or bit of information has nodes it is related to above it (parents), and nodes that are related to it below (children). In a web you also have nodes and vertices, but they can be linked however you please. The result is this:
+
+![outline3](https://raw.githubusercontent.com/botcar/botcar-data/master/commentary/Images/BotCar%20Data%20Outline%20-%20draft%203.png)
 
 ### Normal Forms
 
-To deal with the first two issues I tried to get our data set into third normal form (3NF) and to solve our final problem I looked at fourth normal form (4NF). Before we get into those, lets look at each normal form:
+To deal with the first two issues I tried to get our data set into third normal form (3NF). Before we get into that, lets look at each normal form:
 
 ###### First Normal Form (1NF)
 
@@ -55,10 +57,10 @@ To get to this level a dataset must meet all the requirements of the first norma
 
 This effectively strips the datasets to only have information that is dependent on eachother.
 
-###### Fourth Normal Form (4NF)
+### Triple-of-Triples
 
-4NF has one additional requirement after meeting all of the requirements of the third normal form; A relation is in 4NF if it has no multi-valued dependencies. 
+A so-called 'triple-of-triples' solves our final problem of grouping complex relationships. For botcar, we created an AoIDurn (Act of Identification) which links any of the forms of IDing a specimen (label, taxonomy, possibly later ROI) to the specimenurn without cluttering a collection and breaking my 2nd rule from above, and without creating to many index files.
 
-Triple of triples, AoIDurn
+## Summary
 
-![outline3](https://raw.githubusercontent.com/botcar/botcar-data/master/commentary/Images/BotCar%20Data%20Outline%20-%20draft%203.png)
+These datasets are used to hold information in a way that the computer and ourselves can read. If in the future we create our datasets with these guidelines and ideas in mind and with an eye towards the core ideas of normalization, our data could be faster to act on, more logically setup, and more easily extensible.
