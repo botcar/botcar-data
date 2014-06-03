@@ -4,7 +4,7 @@ When first dealing with the botcar datasets I was trying to normalize the collec
 
 ## Tree
 
-I began by trying to restructure the data by taking our current files and refining a few datasets by relating information based on some general 'hierarchical organization'. This is a top down approach to the dealing with the data and in effect creates a tree for our relations.
+I began with trying to restructure the data by taking our current files and refining a few datasets by relating information based on some general 'hierarchical organization'. This is a top down approach to the dealing with the data and in effect creates a tree for our relations.
 
 ![datasetRework](https://raw.githubusercontent.com/botcar/botcar-data/master/commentary/Images/BotCar%20Document%20Revisions%20-%20draft%201.png)
 
