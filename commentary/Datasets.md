@@ -36,6 +36,29 @@ To solve these problems, and to make dataset formation general and extensible, I
 
 ### Normal Forms
 
-To deal with the first two issues I tried to get our data set into third normal form (3NF). Before we get into that, lets look at each normal form:
+To deal with the first two issues I tried to get our data set into third normal form (3NF) and to solve our final problem I looked at fourth normal form (4NF). Before we get into those, lets look at each normal form:
 
 ###### First Normal Form (1NF)
+
+To accomplish this level a dataset must not have duplicative columns from the same table, there must be separate tables for each group of related data in which each row is identifiable with a unique column (the primary key). This is exptremely basic and both of these requirements were met with our original dataset setup.
+
+###### Second Normal Form (2NF)
+
+To get to this level a dataset must meet all the requirements of the first normal form, remove all subsets of data that apply to multiple rows of a table and place them in separate tables, and must create relationships between these new tables and their predecessors through the use of foreign keys. This was accomplished with my first revisions when creating a tree, the manuscripts redundant data in folios was abstracted away yet still related through a urn.
+
+###### Third Normal Form (3NF)
+
+3NF goes one step further by meeting all the requirements of the second normal form as well as removing columns that are not dependent upon the primary key. To get here I set up some simple guidelines for how datasets should be formed:
+
+- Indicies are only to be used to define the relationships between urns (1-1)
+- Collections do not contain a urn other than the primary
+
+This effectively strips the datasets to only have information that is dependent on eachother.
+
+###### Fourth Normal Form (4NF)
+
+4NF has one additional requirement after meeting all of the requirements of the third normal form; A relation is in 4NF if it has no multi-valued dependencies. 
+
+Triple of triples, AoIDurn
+
+![outline3](https://raw.githubusercontent.com/botcar/botcar-data/master/commentary/Images/BotCar%20Data%20Outline%20-%20draft%203.png)
