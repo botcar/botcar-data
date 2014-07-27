@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Catesby: Labels on Specimens in the Sloane Herbarium</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Transcribed by Amy Hackney Blackwell, 2014. From digital imagery taken at the Sloane Herbarium, 2012.</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Catesby's labels on specimens.</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div n="345">
+				<p n="1">Acer rubrum L.  Catesby 1-62 Det. Richard A. Howard 1982</p>
+			</div>
+			<div n="372">
+				<p n="1">Acer rubrum L.  Catesby 1-62 see also HS 232 f 32 Det. Richard A. Howard 1982</p>
+			</div>
+			<div n="32">
+				<p n="1">Aristolochia serpentaria L.  Catesby 1-29 Det. Richard A. Howard 1982</p>
+			</div>
+			<div n="47">
+				<p n="1">Calycanthus floridus L.  Catesby 1-46 Det. Richard A. Howard 1982</p>
+			</div>
+			<div n="117">
+				<p n="1">Carya tomentosa (Poir) Nutt. but the correct name needs further work since Rehder proposed Juglans alba as a nom. ambig.  Catesby 1-38. Det. Richard A. Howard 1982.</p>
+			</div>
+			<div n="21">
+				<p n="1">Castanea pumila (L.) Miller Catesby 1-9 Det. Richard A. Howard 1982</p>
+			</div>
+			<div n="80">
+				<p n="1">Catalpa bignonioides Walter Catesby 1-49 see also HS 212 f 61 Det. Richard A. Howard 1982</p>
+			</div>
+			<div n="431">
+				<p n="1">Catalpa bignonioides Walter Catesby 1-49 see also HS 232 f 51 Det. Richard A. Howard 1982</p>
+			</div>
+			<div n="419">
+				<p n="1">Clethra alnifolia L.  Catesby 1-66 see also HS 212 f 50 Det. Richard A. Howard 1982</p>
+			</div>
+			<div n="259">
+				<p n="1">Clethra alnifolia L.  Catesby 1-66 see also HS 232 f 35 Det. Richard A. Howard 1982</p>
+			</div>
+			<div n="150">
+				<p n="1">Cocculus carolinus (L) DC Catesby 1-51 see also f 104 Det. Richard A. Howard 1982</p>
+			</div>
+			<div n="164">
+				<p n="1">Cocculus carolinus (L) DC Catesby 1-51 see also f 41 Det. Richard A. Howard 1982</p>
+			</div>
+			<div n="192">
+				<p n="1">Commelina virginica L.  Catesby 2-62 see alo f 57 Det. Richard A. Howard 1982</p>
+			</div>
+			<div n="13">
+				<p n="1">Commelina virginica L.  Catesby 2-62 see also f 6 Det. Richard A. Howard 1982</p>
+			</div>
+			<div n="231">
+				<p n="1">Cornus florida L.  Catesby 1-27 see also HS 212 f 5 Det. Richard A. Howard 1982</p>
+			</div>
+			<div n="412">
+				<p n="1">Cornus florida L.@ Catesby 1-27@ see also HS 232 f 89; Det. Richard A. Howard 1982.</p>
+			</div>
+			<div n="67">
+				<p n="1">Eriogonum tomentosum Michx.  det. James L. Reveal@ U.S. National Museum@ 1972</p>
+			</div>
+			<div n="260">
+				<p n="1">Fraxinus americana L. Catesby 1-80 Det. Richard A. Howard 1982</p>
+			</div>
+			<div n="355">
+				<p n="1">Gentiana catesbaei Walter Catesby 1-70 Det. Richard A. Howard 1982</p>
+			</div>
+			<div n="95">
+				<p n="1">Gordonia lasianthus (L.) Ellis Catesby 1-44 see also HS 212 f 13 Det. Richard A. Howard 1982</p>
+			</div>
+			<div n="262">
+				<p n="1">Gordonia lasianthus (L.) Ellis Catesby 1-44 see also HS 232 f 50 Det. Richard A. Howard 1982</p>
+			</div>
+			<div n="238">
+				<p n="1">Hamamelis virginiana L.  Catesby 2 app. 2 Det. Richard A. Howard 1982</p>
+			</div>
+			<div n="180">
+				<p n="1">Juglans nigra L.  Catesby 1-67 see also f 94 Det. Richard A. Howard 1982</p>
+			</div>
+			<div n="105">
+				<p n="1">Juglans nigra L.  Catesby 1-67 see also f 97 Det. Richard A. Howard 1982</p>
+			</div>
+			<div n="170">
+				<p n="1">Kalmia latifolia L.  Catesby 2-98 see also HS 212 f 64 Det. Richard A. Howard 1982</p>
+			</div>
+			<div n="271">
+				<p n="1">Kalmia latifolia L.  Catesby 2-98 see also HS 232 f 54 Det. Richard A. Howard 1982</p>
+			</div>
+			<div n="48">
+				<p n="1">Lilium catesbaei Walter Catesby 2-58 Det. Richard A. Howard 1982</p>
+			</div>
+			<div n="19">
+				<p n="1">Liquidambar styraciflua L.  Catesby 2-65 see also HS 212 f 79 Det Richard A. Howard 1982</p>
+			</div>
+			<div n="243">
+				<p n="1">Liquidambar styraciflua L.  Catesby 2-65 see also HS 232 f 34 Det. Richard A. Howard 1982</p>
+			</div>
+			<div n="389">
+				<p n="1">Liriodendron tulipifera L.  Catesby 1-48 Det. Richard A. Howard 1982</p>
+			</div>
+			<div n="169">
+				<p n="1">Nyssa aquatica L.  Catesby 1-60 designated type by Eyde (Taxon 13:131) this the typotype see also HS 212 f 67 Det. Richard A. Howard 1982</p>
+			</div>
+			<div n="111">
+				<p n="1">Nyssa aquatica L.  Catesby 1-60 see also HS 232 f 52 Det. Richard A. Howard</p>
+			</div>
+			<div n="68">
+				<p n="1">Nyssa sylvatica Marshall Catesby 1-41 Det. Richard A. Howard 1982</p>
+			</div>
+			<div n="34">
+				<p n="1">Osmanthus americanus (L.) Gray Catesby 1-61 Linn. cited only Catesby and this would be typotype however Green chose an unmarked sheet in Herb. L. as type specimen. Det. Richard A. Howared 1982</p>
+			</div>
+			<div n="384">
+				<p n="1">Oxydendrum arboreum (L) DC Catesby 1-71 see also HS 212 f 66 Det. Richard A. Howard 1982</p>
+			</div>
+			<div n="309">
+				<p n="1">Oxydendrum arboreum (L) DC Catesby 1-71 see also HS 232 f 57 Det. Richard A. Howard 1982</p>
+			</div>
+			<div n="14">
+				<p n="1">Persea borbonia (L.) Sprengel Catesby 1-63 Det. Richard A. Howard 1982</p>
+			</div>
+			<div n="63">
+				<p n="1">Philadephus inodorus L.  Catesby 2-84 . Dandy calls this the typotype.  Det. Richard A. Howard 1982</p>
+			</div>
+			<div n="421">
+				<p n="1">Platanus occidentalis L.  Catesby 1-56 Det. Richard A. Howard 1982</p>
+			</div>
+			<div n="306">
+				<p n="1">Podophyllum peltatum L.  Catesby 1-24 De. Richard A. Howard 1982</p>
+			</div>
+			<div n="302">
+				<p n="1">Populus Rouleau (Rhodora 48:103-110) concluded Catesby 1-34 was P. heterophylla but the description a mixture of P. heterophylla and P. deltoides. See also HS 212 f 52. Det. Richard A. Howard 1982</p>
+			</div>
+			<div n="415">
+				<p n="1">Ptelea trifoliata L.  Catesby 2-83 see also HS 212 f 66 Det. Richard A. Howard 1982</p>
+			</div>
+			<div n="174">
+				<p n="1">Ptelea trifoliata L.  Catesby 2-83 see also HS 232 f 53 Det. Richard A. Howard 1982</p>
+			</div>
+			<div n="233">
+				<p n="1">Quercus alba L.  Catesby 1-21 Det. Richard A. Howard 1982</p>
+			</div>
+			<div n="383">
+				<p n="1">Quercus incana Bartram; also type of Q. phellos var gamma L and Q. brevifolia Sarg. Catesby 1-22.  Det. Richard A. Howard 1982</p>
+			</div>
+			<div n="268">
+				<p n="1">Quercus laevis Walter Catesby 1-23 see also HS 212 f 78 Det. Richard A. Howard 1982</p>
+			</div>
+			<div n="4">
+				<p n="1">Quercus laevis Walter Catesby i-23 see also HS 232 f 88 Det. Richard A. Howard 1982</p>
+			</div>
+			<div n="239">
+				<p n="1">Quercus marilandica Muenchh.  Catesby 1-19 Det. Richard A. Howard 1982</p>
+			</div>
+			<div n="420">
+				<p n="1">Quercus nigra L.  Catesby 1-20 Det. Richard A. Howard 1982</p>
+			</div>
+			<div n="55">
+				<p n="1">Quercus phellos L.  Catesby 1-16 see also HS 212 f 77 Det. Richard A. Howard 1982</p>
+			</div>
+			<div n="342">
+				<p n="1">Quercus phellos L.  Catesby 1-16 see also HS 232 f 98 Det. Richard A. Howard 1982</p>
+			</div>
+			<div n="8">
+				<p n="1">Quercus prinus L.  Catesby 1-18 see also HS 212 f 5 Det. Richard A. Howard 1982</p>
+			</div>
+			<div n="391">
+				<p n="1">Quercus prinus L.@ Catesby 1-18 see also HS 232 f 14; Det. Richard A. Howard 1982.</p>
+			</div>
+			<div n="175">
+				<p n="1">Quercus virginiana Miller Catesby 1-17. Typotype of Quercus phellos var B ex Dandy Det. Richard A. Howard 1982</p>
+			</div>
+			<div n="75">
+				<p n="1">Sarracenia catesbaei (Elliot) Bell?  Casteby 2-69 see also f 20@ 45 Det. Richard A. Howard 1983</p>
+			</div>
+			<div n="72">
+				<p n="1">Sarracenia x catesbaei (Elliot) Bell?  Catesby 2-69 see also f 21@ 45 Det. Richard A. Howard 1982</p>
+			</div>
+			<div n="160">
+				<p n="1">Silene virginica L.  Catesby 2-54 Det. Silene virginica L.</p>
+			</div>
+			<div n="263">
+				<p n="1">Spigelia marilandica (L.) L.  Catesby 2-78 Corrected reference@ see Syst. 12:734 Det. Richard A. Howard 1982</p>
+			</div>
+			<div n="49">
+				<p n="1">Taxodium ascendens Det. Glynn Church@ 9.2007 Taxodium distichum (L) Richard Catesby 1-11 see also HS 212 f 4@ HS 232 f 85 Det. Richard A. Howard</p>
+			</div>
+			<div n="316">
+				<p n="1">Taxodium distichum (L.) Richard Catesby 1-11 See also HS 232 f 69@ f 85 Det. Richard A. Howard 1982</p>
+			</div>
+			<div n="234">
+				<p n="1">Taxodium distichum (L) Richard Catesby 1-11 see also HS 212 f 4@ HS 232 f 69 Det. Richard A. Howard 1982</p>
+			</div>
+			<div n="7">
+				<p n="1">Trillium catesbaei Elliott Catesby 1-45 typotype ex Dandy Det. Richard A. Howard 1982</p>
+			</div>
+			<div n="322">
+				<p n="1">Trillium maculatum Raf.  Catesby 1-50 Typotype ex Dandy Det. Richard A. Howard 1982</p>
+			</div>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Catesby: Labels on Specimens in the Sloane Herbarium</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Transcribed by Amy Hackney Blackwell, 2014. From digital imagery taken at the Sloane Herbarium, 2012.</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Catesby's labels on specimens.</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div n="94">
+				<p n="1">???xia glabrata Mscr. 74</p>
+			</div>
+			<div n="370">
+				<p n="1">??tula spicata Linn.</p>
+			</div>
+			<div n="92">
+				<p n="1">...nodium capitatum Mscr. 116</p>
+			</div>
+			<div n="284">
+				<p n="1">1 Acuta maculata Linn.</p>
+			</div>
+			<div n="423">
+				<p n="1">1 Ageratum uniflorum Mscr. 154</p>
+			</div>
+			<div n="62">
+				<p n="1">1 Carpinus ostrya Linn.</p>
+			</div>
+			<div n="316">
+				<p n="1">1 Cupressus disticha Linn. Sp. Pl. 1003</p>
+			</div>
+			<div n="228">
+				<p n="1">1 Jatropha urens Linn.</p>
+			</div>
+			<div n="209">
+				<p n="1">1 Monarda punctata Linn.</p>
+			</div>
+			<div n="302">
+				<p n="1">1 Populus balsamifera Linn. Sp. Pl. 1034</p>
+			</div>
+			<div n="91">
+				<p n="1">1 Schoenus stellata (marked through Schoenus coloratus Linn)</p>
+			</div>
+			<div n="138">
+				<p n="1">1. Angelica lucida Linn.</p>
+			</div>
+			<div n="287">
+				<p n="1">1. Asclepias amoena Linn.</p>
+			</div>
+			<div n="222">
+				<p n="1">1. Asclepias glabrata Mscr. 57</p>
+			</div>
+			<div n="177">
+				<p n="1">1. Ascyrum crux andrea Linn.</p>
+			</div>
+			<div n="241">
+				<p n="1">1. Carex nutans Mscr. 197</p>
+			</div>
+			<div n="244">
+				<p n="1">1. Cassia occidentalis Linn.</p>
+			</div>
+			<div n="318">
+				<p n="1">1. Clinopodium incanum Linn.</p>
+			</div>
+			<div n="20">
+				<p n="1">1. Colymmia cordifolia Mscr. 181</p>
+			</div>
+			<div n="25">
+				<p n="1">1. Fostera suaveolens Mscr. 177 Nov. gen.</p>
+			</div>
+			<div n="109">
+				<p n="1">1. Kriegia lavigata Mscr. 49</p>
+			</div>
+			<div n="301">
+				<p n="1">1. Ludwigia villosa Mscr. 18</p>
+			</div>
+			<div n="144">
+				<p n="1">1. Lysimachia ciliata Linn.</p>
+			</div>
+			<div n="155">
+				<p n="1">1. Nelia monocephala Mscr. 134 nov. gen.</p>
+			</div>
+			<div n="34">
+				<p n="1">1. Olea americana Mscr 1</p>
+			</div>
+			<div n="236">
+				<p n="1">1. Osmunda regalis. B. Linn.</p>
+			</div>
+			<div n="306">
+				<p n="1">1. Podophyllum peltatum Linn.</p>
+			</div>
+			<div n="119">
+				<p n="1">1. Polypodium Phegopteris Linn.</p>
+			</div>
+			<div n="4">
+				<p n="1">1. Quercus rubra Linn.</p>
+			</div>
+			<div n="163">
+				<p n="1">1. Rubus viminalis Mscr. 110</p>
+			</div>
+			<div n="217">
+				<p n="1">1. Serratula paniculata Mscr. 152</p>
+			</div>
+			<div n="210">
+				<p n="1">1. Serratula speciosa Mscr. 153</p>
+			</div>
+			<div n="104">
+				<p n="1">1. Serratula squarrosa Linn.</p>
+			</div>
+			<div n="186">
+				<p n="1">1. Solidago sempervirens Linn.</p>
+			</div>
+			<div n="157">
+				<p n="1">1. Sophora cerulea Mscr.</p>
+			</div>
+			<div n="283">
+				<p n="1">1. Veratrum viride Mscr. 209</p>
+			</div>
+			<div n="401">
+				<p n="1">1. Zizania aquatica Linn.</p>
+			</div>
+			<div n="422">
+				<p n="1">2 Acer Negundo Linn.</p>
+			</div>
+			<div n="191">
+				<p n="1">2 Aitonia buchneroides Mscr 124 Verbena</p>
+			</div>
+			<div n="314">
+				<p n="1">2 an Bidens</p>
+			</div>
+			<div n="310">
+				<p n="1">2 Collinsonia canadensis Linn.</p>
+			</div>
+			<div n="22">
+				<p n="1">2 Eriocaulon decangulare L.</p>
+			</div>
+			<div n="260">
+				<p n="1">2 Fraxinus americana Linn. Sp. Pl. 1037</p>
+			</div>
+			<div n="320">
+				<p n="1">2 Galega virginiana Linn.</p>
+			</div>
+			<div n="45">
+				<p n="1">2 Lithospermum nervosum Mscr. 21</p>
+			</div>
+			<div n="315">
+				<p n="1">2 Lycopus virginicus Linn.</p>
+			</div>
+			<div n="297">
+				<p n="1">2 Melanthium elatum Mscr. 70</p>
+			</div>
+			<div n="294">
+				<p n="1">2 Polygala foliosa Mscr. 136</p>
+			</div>
+			<div n="323">
+				<p n="1">2 Polypodium rhoticum Linn.</p>
+			</div>
+			<div n="343">
+				<p n="1">2 Scandix suaveolens Mscr.</p>
+			</div>
+			<div n="220">
+				<p n="1">2 Serratula speciosa Mscr. 153</p>
+			</div>
+			<div n="418">
+				<p n="1">2 Xyris indica Linn.; Xyris ambigua Beyr. det. Davis? 1967</p>
+			</div>
+			<div n="256">
+				<p n="1">2. Amsonia alternifolia Mscr.</p>
+			</div>
+			<div n="309">
+				<p n="1">2. Andromeda arborea Linn.</p>
+			</div>
+			<div n="69">
+				<p n="1">2. Andromeda axillaris Inscr. 93</p>
+			</div>
+			<div n="351">
+				<p n="1">2. Aniba ovata Mscr. 197 n. gen.</p>
+			</div>
+			<div n="331">
+				<p n="1">2. Asclepias hirta Mser</p>
+			</div>
+			<div n="265">
+				<p n="1">2. Ceanothus americanus Linn.</p>
+			</div>
+			<div n="356">
+				<p n="1">2. Coreopsis lanceolata Linn.</p>
+			</div>
+			<div n="407">
+				<p n="1">2. Hedysarum spicatum Mscr. 149</p>
+			</div>
+			<div n="30">
+				<p n="1">2. Ludwigia alternifolia Linn.</p>
+			</div>
+			<div n="147">
+				<p n="1">2. Lysimachia stellata Mscr. 25</p>
+			</div>
+			<div n="182">
+				<p n="1">2. Medeola virginiana Linn.</p>
+			</div>
+			<div n="63">
+				<p n="1">2. Philadelphus inodorus Linn. Sp. Pl 470!</p>
+			</div>
+			<div n="377">
+				<p n="1">2. Polypodium auriculatum Linn.</p>
+			</div>
+			<div n="179">
+				<p n="1">2. Serratula scariosa Linn.</p>
+			</div>
+			<div n="184">
+				<p n="1">2. Sida rhombifolia Linn.</p>
+			</div>
+			<div n="16">
+				<p n="1">2. Smilax pubescens Mscr. 207</p>
+			</div>
+			<div n="375">
+				<p n="1">2. Teucrium spiciferum Mscr. 114</p>
+			</div>
+			<div n="218">
+				<p n="1">2. Uniola paniculata Linn.</p>
+			</div>
+			<div n="336">
+				<p n="1">2. Uniola paniculata Linn.</p>
+			</div>
+			<div n="270">
+				<p n="1">2. Veratrum longifolium Mscr. 209</p>
+			</div>
+			<div n="13">
+				<p n="1">3 Commelina virginica L.</p>
+			</div>
+			<div n="23">
+				<p n="1">3 Coreopsis stellata Mscr. 175</p>
+			</div>
+			<div n="298">
+				<p n="1">3 Erigeron jamaicense Linn.</p>
+			</div>
+			<div n="11">
+				<p n="1">3 Juncus globulus Mscr. 68</p>
+			</div>
+			<div n="171">
+				<p n="1">3 Ludwigia villosa Mscr. 18</p>
+			</div>
+			<div n="74">
+				<p n="1">3 Polygala cruciata Linn.</p>
+			</div>
+			<div n="43">
+				<p n="1">3 Salvia lyrata Linn</p>
+			</div>
+			<div n="72">
+				<p n="1">3 Sarracenia flava Linn.</p>
+			</div>
+			<div n="253">
+				<p n="1">3 Sarracenia flava Linn.</p>
+			</div>
+			<div n="414">
+				<p n="1">3 Scandix suaveolens Mscr. 62</p>
+			</div>
+			<div n="87">
+				<p n="1">3. Asclepias nivea Linn.</p>
+			</div>
+			<div n="266">
+				<p n="1">3. Asclepias verticillata Linn.</p>
+			</div>
+			<div n="101">
+				<p n="1">3. Borlacea tenera. Mscr. 95</p>
+			</div>
+			<div n="185">
+				<p n="1">3. Chrysocoma graminifolia Linn.</p>
+			</div>
+			<div n="118">
+				<p n="1">3. Convallaria racemosa Linn.</p>
+			</div>
+			<div n="281">
+				<p n="1">3. Convolvulus hederaceus Linn.</p>
+			</div>
+			<div n="81">
+				<p n="1">3. Dioscorea verticillata Mscr. 207</p>
+			</div>
+			<div n="71">
+				<p n="1">3. Lobelia Pedicularis Mscr. 188</p>
+			</div>
+			<div n="76">
+				<p n="1">3. Nymphaea alba Linn.</p>
+			</div>
+			<div n="359">
+				<p n="1">3. Pedicularis dissilimis Mscr. 119</p>
+			</div>
+			<div n="181">
+				<p n="1">3. Serratula paniculata Mscr. 152</p>
+			</div>
+			<div n="176">
+				<p n="1">3. Serratula scariosa Linn.</p>
+			</div>
+			<div n="216">
+				<p n="1">3. Serratula speciosa Mscr. 153</p>
+			</div>
+			<div n="288">
+				<p n="1">3. Thapsia trifoliata Linn. Mscr. 63; an Aralia spec.</p>
+			</div>
+			<div n="286">
+				<p n="1">4 Asclepias glabrata Meyer 57</p>
+			</div>
+			<div n="24">
+				<p n="1">4 Eryngium foetidum Linn.</p>
+			</div>
+			<div n="160">
+				<p n="1">4 Silene virginica Linn.</p>
+			</div>
+			<div n="393">
+				<p n="1">4. fr. H.S. 7A. 30</p>
+			</div>
+			<div n="367">
+				<p n="1">4. Nelia eriocephala Mscr. 134 nov. gen.</p>
+			</div>
+			<div n="334">
+				<p n="1">4. Shoenus glomeratus Linn.</p>
+			</div>
+			<div n="352">
+				<p n="1">4. Sida rhombifolia Linn.</p>
+			</div>
+			<div n="83">
+				<p n="1">4. Tusilago integrifolia Mscr. 164</p>
+			</div>
+			<div n="132">
+				<p n="1">4. Viola angustifolia Mscr. 189</p>
+			</div>
+			<div n="259">
+				<p n="1">5. Clethra alnifolia Linn.</p>
+			</div>
+			<div n="232">
+				<p n="1">5. Vaccinium clavatum Mscr. 76</p>
+			</div>
+			<div n="372">
+				<p n="1">Acer rubrum Linn</p>
+			</div>
+			<div n="246">
+				<p n="1">Allium inodorum Ms.</p>
+			</div>
+			<div n="242">
+				<p n="1">Aruba ovata Mscr 197 nov. gens</p>
+			</div>
+			<div n="324">
+				<p n="1">Asclepias floridana Mscr. 57</p>
+			</div>
+			<div n="273">
+				<p n="1">Asclepias nivea Linn.</p>
+			</div>
+			<div n="387">
+				<p n="1">Bidens frondosa Linn.</p>
+			</div>
+			<div n="239">
+				<p n="1">Black Oak Catesby T. 19</p>
+			</div>
+			<div n="105">
+				<p n="1">Blake Wallnut</p>
+			</div>
+			<div n="166">
+				<p n="1">Brunnickia cirrhosa Mscr. 96 nov. gen.</p>
+			</div>
+			<div n="47">
+				<p n="1">Calycanthus floridus Linn. Spl. ed. 10 1066</p>
+			</div>
+			<div n="82">
+				<p n="1">Campanula perfoliata Linn.</p>
+			</div>
+			<div n="388">
+				<p n="1">Chironia angularis Linn.</p>
+			</div>
+			<div n="190">
+				<p n="1">Chrysocoma linifolia Mscr. 156</p>
+			</div>
+			<div n="192">
+				<p n="1">Commelina virginica Linn.</p>
+			</div>
+			<div n="412">
+				<p n="1">Cornus florida Linn. Sp. Pl. 117</p>
+			</div>
+			<div n="402">
+				<p n="1">Crinos villosus Inscr 69</p>
+			</div>
+			<div n="231">
+				<p n="1">Dogwood</p>
+			</div>
+			<div n="21">
+				<p n="1">Fagus pumila Linn.</p>
+			</div>
+			<div n="409">
+				<p n="1">Gnaphalium hirtum Mscr. 160</p>
+			</div>
+			<div n="238">
+				<p n="1">Hamamelis virginiana Linn. (in pencil: Sp. Pl. 124!)</p>
+			</div>
+			<div n="364">
+				<p n="1">Hedyglarum volubile Linn.</p>
+			</div>
+			<div n="262">
+				<p n="1">Hypericum Lasianthus Linn. Sp. Pl. 783</p>
+			</div>
+			<div n="347">
+				<p n="1">Impatiens americana Mscr. 190</p>
+			</div>
+			<div n="280">
+				<p n="1">Indigofera tinctoria. 1061.1</p>
+			</div>
+			<div n="117">
+				<p n="1">Juglans alba: Linn. Sp. Pl. 997</p>
+			</div>
+			<div n="243">
+				<p n="1">Liquidambar styraciflua L.</p>
+			</div>
+			<div n="389">
+				<p n="1">Liriodendron Tulipifera Linn.</p>
+			</div>
+			<div n="211">
+				<p n="1">Lobelia laevigata Mscr 188</p>
+			</div>
+			<div n="224">
+				<p n="1">Lycopodium alopecuroides Linn.</p>
+			</div>
+			<div n="73">
+				<p n="1">Menispermum canadense Linn.</p>
+			</div>
+			<div n="35">
+				<p n="1">Monarda punctata Linn.</p>
+			</div>
+			<div n="392">
+				<p n="1">Pedicularis umbellifera Mscr.</p>
+			</div>
+			<div n="251">
+				<p n="1">Physalis angulata Linn.</p>
+			</div>
+			<div n="161">
+				<p n="1">Polypremum procumbens Linn.</p>
+			</div>
+			<div n="406">
+				<p n="1">Pontederia cordata Linn.</p>
+			</div>
+			<div n="151">
+				<p n="1">Pontederia cordata Linn.</p>
+			</div>
+			<div n="8">
+				<p n="1">Quercus Prinus Linn.</p>
+			</div>
+			<div n="391">
+				<p n="1">Quercus Prinus Linn. Sp. Pl. 995</p>
+			</div>
+			<div n="268">
+				<p n="1">Quercus rubra Linn.; Red Oak</p>
+			</div>
+			<div n="131">
+				<p n="1">R.H. 183</p>
+			</div>
+			<div n="258">
+				<p n="1">Rhexia glabrata Mscr. det Lewis 1967 (blue ballpoint pen)</p>
+			</div>
+			<div n="75">
+				<p n="1">Sarracenia flava Linn.</p>
+			</div>
+			<div n="396">
+				<p n="1">Saururus cernuus Linn.</p>
+			</div>
+			<div n="85">
+				<p n="1">Scutellaria laterifolia Linn.</p>
+			</div>
+			<div n="325">
+				<p n="1">Serratula secunda Mscr. 152</p>
+			</div>
+			<div n="395">
+				<p n="1">Silphium asteriscus Linn.</p>
+			</div>
+			<div n="424">
+				<p n="1">Sophora perfoliata Mscr. 88</p>
+			</div>
+			<div n="202">
+				<p n="1">Sophora perfoliata Mscr. 88</p>
+			</div>
+			<div n="18">
+				<p n="1">Sophora tinctoria Linn.</p>
+			</div>
+			<div n="207">
+				<p n="1">Stachys intermedia Mscr.</p>
+			</div>
+			<div n="234">
+				<p n="1">Taxodium ascendens@ Det. Glynn Church 9.2007</p>
+			</div>
+			<div n="420">
+				<p n="1">Water Oak Catesby T.20</p>
+			</div>
+			<div n="233">
+				<p n="1">White Oak</p>
+			</div>
+			<div n="55">
+				<p n="1">Willow Oak</p>
+			</div>
+		</body>
+	</text>
+</TEI>
