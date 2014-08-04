@@ -23,7 +23,7 @@
         <citeProperty label="URN" name="URN" type="citeurn"/>
         <citeProperty label="Folio URN" name="folioURN" type="citeurn"/>
         <citeProperty label="Image URN" name="imgURN" type="citeimg"/>
-        <citeProperty label="Text" name="text" type="string"/>
+        <citeProperty label="Text" name="text" type="markdown"/>
         <citeProperty label="Category" name="category" type="string">
             <valueList>
                 <value>Typed Label</value>
@@ -56,7 +56,7 @@
         
         <citeProperty label="Specimen ID" name="specimenURN" type="citeurn"/>
         <citeProperty label="Name" name="name" type="string"/>
-        <citeProperty label="Scientific Name" name="scientificName" type="string"/>
+        <citeProperty label="Scientific Name" name="scientificName" type="markdown"/>
         <citeProperty label="Species URN" name="speciesURN" type="citeurn"/>
         <citeProperty label="Common Name" name="commonName" type="string"/>
         <citeProperty label="Genus URN" name="genusURN" type="citeurn"/>
@@ -228,5 +228,18 @@
         <citeProperty name="Label" label="Label" type="string"></citeProperty>
    </citeCollection>
     
-
+   <!-- <citeCollection canonicalId="URN" label="Label" urn="urn:cite:botcar:locations">
+        <namespaceMapping abbr="botcar" fullValue="http://classics.furman.edu/datans"/>
+        <citeProperty name="URN" label="URN" type="citeurn"></citeProperty>
+        <citeProperty name="Label" label="Label" type="string"></citeProperty>
+        <citeProperty name="Loc" label="Location" type="geojson"></citeProperty>
+    </citeCollection>-->
+    
+   <!-- <citeCollection canonicalId="URN" label="Label" urn="urn:cite:botcar:commentary">
+        <namespaceMapping abbr="botcar" fullValue="http://classics.furman.edu/datans"/>
+        <citeProperty name="URN" label="URN" type="citeurn"></citeProperty>
+        <citeProperty name="Resp" label="Author" type="string"></citeProperty>
+        <citeProperty name="Text" label="Text" type="markdown"></citeProperty>
+    </citeCollection>-->
+    
 </collectionService>

@@ -17,6 +17,7 @@
             <value>ctsurn</value>
             <value>citeimg</value>
             <value>markdown</value>
+            <value>geojson</value>
             
             <!-- Special editorial metadata types -->
             <value>authuser</value>
