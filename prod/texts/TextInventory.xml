@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file:TextInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TextInventory tiversion="5.0.rc.1" xmlns="http://chs.harvard.edu/xmlns/cts">
+   
+    
+    <ctsnamespace abbr="botcar" ns="folio.furman.edu/ctsns">
+        <description xml:lang="eng">Botanica Caroliniana.</description>
+    </ctsnamespace>
+
+    <textgroup urn="urn:cts:botcar:hslabels">
+        <groupname xml:lang="eng">Herb. Sloane Labels</groupname>
+        <work urn="urn:cts:botcar:hslabels.jlord" xml:lang="eng">
+            <title xml:lang="eng">Joseph Lord. Specimen Lables</title>
+            <edition urn="urn:cts:botcar:hslabels.jlord.fu01">
+                <label xml:lang="eng">Transcribed by A. Hackney Blackwell, Furman University</label>
+                <description xml:lang="eng">Joseph Lord's labels on botanical specimens in the Sloane Herbarium, H.S. 158, 267, 268, 284, 285. Transcribed by A. Hackney Blackwell.</description>
+            <online docname="Lord_Labels.xml">
+                <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                <citationMapping>
+                    <citation label="Section" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']">
+                        <citation label="Paragraph" scope="/tei:TEI/tei:text/tei:body/tei:div[@n='?']" xpath="/tei:p[@n='?']"/>
+                    </citation>
+                </citationMapping>
+            </online>
+            </edition>
+        </work>
+    </textgroup>
+    
+    
+    <textgroup urn="urn:cts:botcar:lawson">
+        <groupname xml:lang="eng">John Lawson</groupname>
+        <work urn="urn:cts:botcar:lawson.voyage" xml:lang="eng">
+            <title xml:lang="eng">A New Voyage to Carolina</title>
+            <edition urn="urn:cts:botcar:lawson.voyage.1709">
+                <label xml:lang="eng">1709 ed.</label>
+                <description xml:lang="eng">A New Voyage to Carolina; Containing the Exact Description and Natural History of That Country: Together with the Present State Thereof. And A Journal of a Thousand Miles, Travel’d Thro’ Several Nations of Indians. Giving a Particular Account of Their Customs, Manners, &amp;c. Based on the 2001 digital transcription of this Public Domain work by the University of North Carolina, with funding from the Institute for Museum and Library Services; Apex Data Services, Inc., Melissa Graham Meeks and Natalia Smith.</description>
+                <online docname="Lawson.xml">
+                    
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="Section" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']">
+                            <citation label="Paragraph" scope="/tei:TEI/tei:text/tei:body/tei:div[@n='?']" xpath="/tei:p[@n='?']"/>
+                        </citation>
+                        <citation label="Section" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']">
+                            <citation label="Paragraph" scope="/tei:TEI/tei:text/tei:body/tei:div[@n='?']" xpath="/tei:note[@n='?']"/>
+                        </citation>
+                    </citationMapping>
+                </online></edition>
+        </work>
+    </textgroup>
+  
+</TextInventory>
