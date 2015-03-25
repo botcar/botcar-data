@@ -2,16 +2,170 @@
 <?xml-model href="file:CiteCollectionInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <collectionService 
     xmlns="http://chs.harvard.edu/xmlns/cite"
-    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:bctaxon="http://folio.furman.edu/cite/rdf/bctaxon">
+    <extensionImplementation abbr="image" rdfType="cite:CiteImage"/>
+    
+    <!-- Image Collections -->
+   <!-- <citeCollection urn="urn:cite:fufolioimg:BotCarCatesbyHS" label="caption" canonicalId="URN">
+        <namespaceMapping abbr="fufolioimg" fullValue="http://classics.furman.edu/datans"/>
+        <extension name="image"/>
+        <dc:title>Botanica Caroliniana: Mark Catesby's Specimens</dc:title>
+        <dc:description>Images of Mark Catesby's botanical specimens from the Sloane
+            Herbarium.</dc:description>
+        <dc:rights>All data in this collection are available under the terms of the Creative Commons
+            Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
+        <source type="file" value="images/CatesbyHSimg.csv"/>
+        
+        <citeProperty label="URN" name="URN" type="citeurn"/>
+        <citeProperty label="Caption" name="caption" type="string"/>
+        <citeProperty label="Rights" name="rights" type="string"/>
+    </citeCollection>
+    
+    <citeCollection urn="urn:cite:fufolioimg:BotCarCatesbyNH" label="caption" canonicalId="URN">
+        <namespaceMapping abbr="fufolioimg" fullValue="http://classics.furman.edu/datans"/>
+        <extension name="image"/>
+        <dc:title>Botanica Caroliniana: Mark Catesby's Natural History</dc:title>
+        <dc:description>Images of Mark Catesby's Natural History.</dc:description>
+        <dc:rights>All data in this collection are available under the terms of the Creative Commons
+            Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
+        <source type="file" value="images/CatesbyNHimg.csv"/>
+        <citeProperty label="URN" name="URN" type="citeurn"/>
+        <citeProperty label="Caption" name="caption" type="string"/>
+        <citeProperty label="Rights" name="rights" type="string"/>
+    </citeCollection>
+    
+    <citeCollection urn="urn:cite:fufolioimg:BotCarBartramJ" label="caption" canonicalId="URN">
+        <namespaceMapping abbr="fufolioimg" fullValue="http://classics.furman.edu/datans"/>
+        <extension name="image"/>
+        <dc:title>Botanica Caroliniana: John Bartram</dc:title>
+        <dc:description>Images of John Bartram's herbarium specimens from the Sloane
+            Herbarium.</dc:description>
+        <dc:rights>All data in this collection are available under the terms of the Creative Commons
+            Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
+        <source type="file" value="images/BartramJimg.csv"/>
+        <citeProperty label="URN" name="URN" type="citeurn"/>
+        <citeProperty label="Caption" name="caption" type="string"/>
+        <citeProperty label="Rights" name="rights" type="string"/>
+    </citeCollection>
+    
+    <citeCollection urn="urn:cite:fufolioimg:BotCarBartramW" label="caption" canonicalId="URN">
+        <namespaceMapping abbr="fufolioimg" fullValue="http://classics.furman.edu/datans"/>
+        <extension name="image"/>
+        <dc:title>Botanica Caroliniana: William Bartram</dc:title>
+        <dc:description>Images of William Bartram's herbarium specimens from the Sloane
+            Herbarium.</dc:description>
+        <dc:rights>All data in this collection are available under the terms of the Creative Commons
+            Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
+        <source type="file" value="images/BartramWimg.csv"/>
+        <citeProperty label="URN" name="URN" type="citeurn"/>
+        <citeProperty label="Caption" name="caption" type="string"/>
+        <citeProperty label="Rights" name="rights" type="string"/>
+    </citeCollection>
+    
+    <citeCollection urn="urn:cite:fufolioimg:BotCarFranklin" label="caption" canonicalId="URN">
+        <namespaceMapping abbr="fufolioimg" fullValue="http://classics.furman.edu/datans"/>
+        <extension name="image"/>
+        <dc:title>Botanica Caroliniana: Franklin</dc:title>
+        <dc:description>Images of Franklin's herbarium specimens from the Sloane
+            Herbarium.</dc:description>
+        <dc:rights>All data in this collection are available under the terms of the Creative Commons
+            Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
+        <source type="file" value="images/Franklinimg.csv"/>
+        <citeProperty label="URN" name="URN" type="citeurn"/>
+        <citeProperty label="Caption" name="caption" type="string"/>
+        <citeProperty label="Rights" name="rights" type="string"/>
+    </citeCollection>
+    
+    <citeCollection urn="urn:cite:fufolioimg:BotCarHalsteed" label="caption" canonicalId="URN">
+        <namespaceMapping abbr="fufolioimg" fullValue="http://classics.furman.edu/datans"/>
+        <extension name="image"/>
+        <dc:title>Botanica Caroliniana: Halsteed</dc:title>
+        <dc:description>Images of Halsteed's herbarium specimens from the Sloane
+            Herbarium.</dc:description>
+        <dc:rights>All data in this collection are available under the terms of the Creative Commons
+            Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
+        <source type="file" value="images/Halsteedimg.csv"/>
+        <citeProperty label="URN" name="URN" type="citeurn"/>
+        <citeProperty label="Caption" name="caption" type="string"/>
+        <citeProperty label="Rights" name="rights" type="string"/>
+    </citeCollection>
+    
+    <citeCollection urn="urn:cite:fufolioimg:BotCarLord" label="caption" canonicalId="URN">
+        <namespaceMapping abbr="fufolioimg" fullValue="http://classics.furman.edu/datans"/>
+        <extension name="image"/>
+        <dc:title>Botanica Caroliniana: Joseph Lord</dc:title>
+        <dc:description>Images of Joseph Lord's herbarium specimens from the Sloane
+            Herbarium.</dc:description>
+        <dc:rights>All data in this collection are available under the terms of the Creative Commons
+            Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
+        <source type="file" value="images/Lordimg.csv"/>
+        <citeProperty label="URN" name="URN" type="citeurn"/>
+        <citeProperty label="Caption" name="caption" type="string"/>
+        <citeProperty label="Rights" name="rights" type="string"/>
+    </citeCollection>
+    
+    <citeCollection urn="urn:cite:fufolioimg:michauxParis" label="caption" canonicalId="URN">
+        <namespaceMapping abbr="fufolioimg" fullValue="http://classics.furman.edu/datans"/>
+        <extension name="image"/>
+        <dc:title>Botanica Caroliniana: André Michaux</dc:title>
+        <dc:description>Images of Michaux's herbarium specimens from the Jardin des
+            Plantes, Paris.</dc:description>
+        <dc:rights>All data in this collection are available under the terms of the Creative Commons
+            Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
+        <source type="file" value="images/michauxImg.csv"/>
+        <citeProperty label="URN" name="URN" type="citeurn"/>
+        <citeProperty label="Caption" name="caption" type="string"/>
+        <citeProperty label="Rights" name="rights" type="string"/>
+    </citeCollection>
+    
+    <citeCollection urn="urn:cite:fufolioimg:BotCarWalter" label="caption" canonicalId="URN">
+        <namespaceMapping abbr="fufolioimg" fullValue="http://classics.furman.edu/datans"/>
+        <extension name="image"/>
+        <dc:title>Botanica Caroliniana:  Walter Herbarium</dc:title>
+        <dc:description>Images of specimens from the Walter Herbarium, Sloane Herbarium,
+            London.</dc:description>
+        <dc:rights>All data in this collection are available under the terms of the Creative Commons
+            Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
+        <source type="file" value="images/Walterimg.csv"/>
+        <citeProperty label="URN" name="URN" type="citeurn"/>
+        <citeProperty label="Caption" name="caption" type="string"/>
+        <citeProperty label="Rights" name="rights" type="string"/>
+    </citeCollection>
+    
+    <citeCollection urn="urn:cite:fufolioimg:BotCarLawson" label="caption" canonicalId="URN">
+        <namespaceMapping abbr="fufolioimg" fullValue="http://classics.furman.edu/datans"/>
+        <extension name="image"/>
+        <dc:title>Botanica Caroliniana: John Lawson</dc:title>
+        <dc:description>Images of John Lawson's Specimens, Sloane Herbarium,
+            London.</dc:description>
+        <dc:rights>All data in this collection are available under the terms of the Creative Commons
+            Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
+        <source type="file" value="images/Lawsonimg.csv"/>
+        <citeProperty label="URN" name="URN" type="citeurn"/>
+        <citeProperty label="Caption" name="caption" type="string"/>
+        <citeProperty label="Rights" name="rights" type="string"/>
+    </citeCollection>-->
     
     <!-- Botanica Caroliniana Collections -->
     
 
     
-    <citeCollection 
-        urn="urn:cite:botcar:sloane" 
-        canonicalId="specimenURN"
+   <!-- <citeCollection 
+        urn="urn:cite:botcar:catesbySpecimens" 
+        canonicalId="URN"
         label="name">
+        
         <namespaceMapping abbr="botcar" fullValue="http://classics.furman.edu/datans"/>
         <dc:title>Botanica Caroliniana: Catesby Specimens</dc:title>
         <dc:description>BC: Specimens in Mark Catesbys H.S. volumes from the Sloane Herbarium</dc:description>
@@ -20,23 +174,57 @@
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
         <source
             type="file"
-            value="catesbySpecimens.csv"/>
+            value="Specimens-Catesby.tsv"/>
         
-        <citeProperty label="Specimen ID" name="specimenURN" type="citeurn"/>
+        <citeProperty label="Specimen ID" name="URN" type="citeurn"/>
         <citeProperty label="Name" name="name" type="string"/>
         <citeProperty label="Scientific Name" name="scientificName" type="string"/>
-        <citeProperty label="Species URN" name="speciesURN" type="citeurn"/>
+        <citeProperty label="Species URN" name="speciesURN" type="citeurn">
+           
+        </citeProperty>
         <citeProperty label="Common Name" name="commonName" type="string"/>
+        <citeProperty label="BC Genus URN" name="genusURN" type="citeurn" join="naturaljoin">
+            
+        </citeProperty>
+        <citeProperty label="BC Family URN" name="familyURN" type="citeurn">
+           
+        </citeProperty>
+        <citeProperty label="BC Folio URN" name="folioURN" type="citeurn"/>
+        <citeProperty label="Folio Image" name="image" type="citeimg"/>
+        <citeProperty label="Folio Image ROI" name="ROI" type="citeimg"/>
+        <citeProperty label="ITIS TSN Serial No." name="tsn" type="string"/>
+    </citeCollection>-->
+    
+   <!--<citeCollection 
+        urn="urn:cite:botcar:lordSpecimens" 
+        canonicalId="URN"
+        label="Name">
+        
+        <namespaceMapping abbr="botcar" fullValue="http://classics.furman.edu/datans"/>
+        <dc:title>Botanica Caroliniana: Lord Specimens</dc:title>
+        <dc:description>BC: Joseph Lord's handwritten labels on his specimens from the Sloane Herbarium</dc:description>
+        <dc:rights>All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
+        <source
+            type="file"
+            value="Specimens-Lord.tsv"/>
+        <citeProperty label="BC Folio URN" name="folioURN" type="citeurn"/>
+        <citeProperty label="Specimen ID" name="URN" type="citeurn"/>
+        <citeProperty label="Folio Image ROI" name="ROI" type="citeimg"/>
+        <citeProperty label="Name" name="Name" type="string"/>
+        <citeProperty label="Collection Date" name="collectionData" type="string"/>
+        <citeProperty label="Scientific Name" name="scientificName" type="string"/>
+        <citeProperty label="Species URN" name="speciesURN" type="citeurn"/>
         <citeProperty label="BC Genus URN" name="genusURN" type="citeurn"/>
         <citeProperty label="BC Family URN" name="familyURN" type="citeurn"/>
-        <citeProperty label="BC Folio URN" name="folioURN" type="citeurn"/>
-        <citeProperty label="Folio Image" name="folioImage" type="citeimg"/>
-        <citeProperty label="Folio Image ROI" name="folioImageROI" type="citeimg"/>
-        <citeProperty label="ITIS TSN Serial No." name="tsnID" type="string"/>
-    </citeCollection>
+       <citeProperty label="ITIS TSN Serial No." name="tsn" type="string"/>
+           
+        
+    </citeCollection>-->
    
     
-    <citeCollection 
+ <!--    <citeCollection 
         urn="urn:cite:botcar:species"
         canonicalId="speciesURN" 
         label="label">
@@ -48,20 +236,20 @@
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
         <source
             type="file"
-            value="species.csv"/>
+            value="species.tsv"/>
         <citeProperty label="Species ID" name="speciesURN" type="citeurn"/>
         <citeProperty label="Family ID" name="familyURN" type="citeurn"/>
         <citeProperty label="Genus ID" name="genusURN" type="citeurn"/>
         
         <citeProperty label="Scientific Name (markdown)" name="scientificName" type="string"/>
         
-        <citeProperty label="Label" name="label" type="string"/>
+        <citeProperty label="Label" name="label" type="markdown"/>
         <citeProperty label="ITIS TSN Serial No." name="tsn" type="string"/>
-    </citeCollection>
+    </citeCollection>-->
     
-<citeCollection 
+<!--<citeCollection 
     urn="urn:cite:botcar:genus"
-    canonicalId="genusURN"
+    canonicalId="URN"
      label="label">
         <namespaceMapping abbr="botcar" fullValue="http://classics.furman.edu/datans"/>
     <dc:title>Botanica Caroliniana: Genus</dc:title>
@@ -71,16 +259,16 @@
         http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
     <source
         type="file"
-        value="genera.csv"/>
+        value="genera.tsv"/>
         <citeProperty label="Genus ID" name="genusURN" type="citeurn"/>
         <citeProperty label="Genus Name" name="genusName" type="string"/>
         <citeProperty label="Label" name="label" type="string"/>
         <citeProperty label="Family URN" name="familyURN" type="citeurn"/>
         <citeProperty label="ITIS TSN Serial No." name="tsn" type="string"
             />
-    </citeCollection>
+    </citeCollection>-->
     
-   <citeCollection 
+<!--<citeCollection 
     urn="urn:cite:botcar:family"
     label="label"
     canonicalId="familyURN">
@@ -92,16 +280,16 @@
         http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
     <source
         type="file"
-        value="families.csv"/>
+        value="families.tsv"/>
         <citeProperty label="Family ID" name="familyURN" type="citeurn"/>
     <citeProperty label="Label" name="label" type="string"/>
         <citeProperty label="Family Name" name="familyName" type="string"/>
         <citeProperty label="ITIS TSN Serial No." name="tsn" type="string"/>
-</citeCollection>
+</citeCollection>-->
     
   
     
-    
+    <!--    
     <citeCollection 
         urn="urn:cite:botcar:CatesbyHS212" 
         canonicalId="folioURN"
@@ -149,11 +337,66 @@
         <citeProperty label="MS label" name="MS" type="string"/>
         <citeProperty label="MS siglum" name="Siglum" type="string"/>
         <citeProperty label="Internal sequence number" name="Sequence" type="number"/>
-        <citeProperty label="Default Image" name="defaultImage" type="citeimg"/>
+     <citeProperty label="Default Image" name="defaultImage" type="citeimg"/>
      
+ </citeCollection> -->
+    
+ <!--   <citeCollection 
+        urn="urn:cite:botcar:lordLabels"
+        canonicalId="URN" 
+        label="Name">
+        <namespaceMapping abbr="botcar" fullValue="http://classics.furman.edu/datans/botcar"/>
+        
+        <dc:title>Botanica Caroliniana: Labels</dc:title>
+        <dc:description>BC: Joseph Lord's labels on his botanical specimens</dc:description>
+        <dc:rights>All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
+        <source
+            type="file"
+            value="LordLabels.tsv"/>
+        <citeProperty label="URN" name="URN" type="citeurn"/>
+        <citeProperty label="Folio URN" name="folioURN" type="citeurn"/>
+        <citeProperty label="Image URN" name="ROI" type="citeimg"/>
+        <citeProperty label="Text" name="LabelText" type="markdown"/>
+        <citeProperty label="Name" name="name" type="string"/>
+        
+    </citeCollection>-->
+    
+  <!--  <citeCollection 
+        urn="urn:cite:botcar:catesbyLabels"
+        canonicalId="URN" 
+        label="name">
+        <namespaceMapping abbr="botcar" fullValue="http://classics.furman.edu/datans/botcar"/>
+        
+        <dc:title>Botanica Caroliniana: Labels</dc:title>
+        <dc:description>BC: Labels on Mark Catesby's botanical specimens</dc:description>
+        <dc:rights>All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
+        <source
+            type="file"
+            value="CatesbyLabels.csv"/>
+        <citeProperty label="URN" name="URN" type="citeurn"/>
+        <citeProperty label="Folio URN" name="folioURN" type="citeurn"/>
+        <citeProperty label="Image URN" name="imgURN" type="citeimg"/>
+        <citeProperty label="Text" name="text" type="markdown"/>
+        <citeProperty label="Category" name="category" type="string">
+            <valueList>
+                <value>Typed Label</value>
+                <value>Pen on Label</value>
+                <value>Pen on Page</value>
+                <value>Pencil on Page</value>
+            </valueList>
+        </citeProperty>
+       
+        <citeProperty label="Contributer" name="Contributer" type="string"/>
+        <citeProperty label="Date" name="Date" type="string"/>
+        <citeProperty label="Name" name="name" type="string"/>
+        
     </citeCollection>
     
-   <!-- <citeCollection  
+    <citeCollection  
         urn="urn:cite:botcar:CatesbyNH1" 
         canonicalId="folioURN" 
         label="folioURN"
@@ -212,18 +455,40 @@
         <citeProperty name="Label" label="Label" type="string"></citeProperty>
    </citeCollection>-->
     
-   <!-- <citeCollection canonicalId="URN" label="Label" urn="urn:cite:botcar:locations">
+    <citeCollection canonicalId="URN" label="URN" urn="urn:cite:botcar:location">
         <namespaceMapping abbr="botcar" fullValue="http://classics.furman.edu/datans"/>
+        <dc:title>Botanica Caroliniana: Locations</dc:title>
+        <dc:description>BC: Geographic Locations, specfied by GeoJSON strings</dc:description>
+        <dc:rights>All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
+        <source
+            type="file"
+            value="locations.tsv"/>
         <citeProperty name="URN" label="URN" type="citeurn"></citeProperty>
         <citeProperty name="Label" label="Label" type="string"></citeProperty>
-        <citeProperty name="Loc" label="Location" type="geojson"></citeProperty>
-    </citeCollection>-->
+        <citeProperty name="Description" label="Description" type="string"></citeProperty>
+        <citeProperty name="Rights" label="Rights" type="string"></citeProperty>
+        <citeProperty name="GeoJSON" label="GeoJSON" type="geojson"></citeProperty>
+    </citeCollection>
     
-   <!-- <citeCollection canonicalId="URN" label="Label" urn="urn:cite:botcar:commentary">
+    <citeCollection canonicalId="URN" label="URN" urn="urn:cite:botcar:commentary">
         <namespaceMapping abbr="botcar" fullValue="http://classics.furman.edu/datans"/>
+        <dc:title>Botanica Caroliniana: Commentary</dc:title>
+        <dc:description>BC: Commentary and Notes on Specimens</dc:description>
+        <dc:rights>All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
+        <source
+            type="file"
+            value="commentary.tsv"/>
         <citeProperty name="URN" label="URN" type="citeurn"></citeProperty>
-        <citeProperty name="Resp" label="Author" type="string"></citeProperty>
-        <citeProperty name="Text" label="Text" type="markdown"></citeProperty>
-    </citeCollection>-->
+        <citeProperty name="Target" label="Specimen" type="citeimg"></citeProperty>
+        <citeProperty name="Label" label="Label" type="string"></citeProperty>
+        <citeProperty name="Author" label="Description" type="string"></citeProperty>
+        <citeProperty name="Rights" label="Rights" type="string"></citeProperty>
+        <citeProperty name="Date" label="Date" type="string"></citeProperty>
+        <citeProperty name="Note" label="Comment" type="markdown"></citeProperty>
+    </citeCollection>
     
 </collectionService>

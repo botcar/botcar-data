@@ -3,6 +3,7 @@
 <indexInventory xmlns="http://chs.harvard.edu/xmlns/cite">
       <rdfNamespace abbr="hmt" fullValue="http://www.homermultitext.org/hmt/rdf/"></rdfNamespace>
       <rdfNamespace abbr="cite" fullValue="http://www.homermultitext.org/cite/rdf/"></rdfNamespace>
+    <rdfNamespace abbr="dse" fullValue="http://www.homermultitext.org/dse/rdf/"></rdfNamespace>
     <rdfNamespace abbr="bctaxon" fullValue="http://folio.furman.edu/cite/rdf/"></rdfNamespace>
     
    
@@ -12,7 +13,7 @@
     <!-- Botanica Caroliniana Indices -->
     
     <!-- General illustration index -->
-    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+    <index verb="dse:illustratedBy" inverse="dse:illustrates">
         <source type="file" value="image-index.tsv"></source>
     </index>
     
@@ -25,9 +26,12 @@
         <source type="file" value="tax-species-genus.tsv"></source>
     </index>
     
+    <!--   Taxonomy: Taxon/Descendent relations -->
+    <!--<index verb="bctaxon:memberOf" inverse="bctaxon:hasMember"/>-->
+    
     
     <!--        Taxonomy: Specimen/Species relations -->
-    <index verb="bctaxon:exampleOf" inverse="bctaxon:identifiedBy">
+    <index verb="bctaxon:exampleOf" inverse="bctaxon:representedBy">
         <source type="file" value="tax-specimen-species.tsv"></source>
     </index>
 </indexInventory>

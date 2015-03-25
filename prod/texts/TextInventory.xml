@@ -48,5 +48,25 @@
                 </online></edition>
         </work>
     </textgroup>
+    
+    <textgroup urn="urn:cts:botcar:lord">
+        <groupname xml:lang="eng">Joseph Lord</groupname>
+        <work urn="urn:cts:botcar:lord.labels" xml:lang="eng">
+            <title xml:lang="eng">Labels on Lord's Botanical Specimens</title>
+            <edition urn="urn:cts:botcar:lord.labels.fu">
+                <label xml:lang="eng">A. Blackwell ed.</label>
+                <description xml:lang="eng">Transcription of handwritten labels on Joseph Lord's Botanical Specimens from the Sloane Herbarium.</description>
+                <online docname="Lord_Labels.xml">
+                    
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="Section" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']">
+                            <citation label="Paragraph" scope="/tei:TEI/tei:text/tei:body/tei:div[@n='?']" xpath="/tei:p[@n='?']"/>
+                        </citation>
+                       
+                    </citationMapping>
+                </online></edition>
+        </work>
+    </textgroup>
   
 </TextInventory>
