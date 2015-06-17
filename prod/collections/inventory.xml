@@ -472,7 +472,7 @@
         <citeProperty name="GeoJSON" label="GeoJSON" type="geojson"></citeProperty>
     </citeCollection>
     
-    <!--<citeCollection canonicalId="URN" label="URN" urn="urn:cite:botcar:commentary">
+    <citeCollection canonicalId="URN" label="URN" urn="urn:cite:botcar:commentary">
         <namespaceMapping abbr="botcar" fullValue="http://classics.furman.edu/datans"/>
         <dc:title>Botanica Caroliniana: Commentary</dc:title>
         <dc:description>BC: Commentary and Notes on Specimens</dc:description>
@@ -483,12 +483,11 @@
             type="file"
             value="commentary.tsv"/>
         <citeProperty name="URN" label="URN" type="citeurn"></citeProperty>
-        <citeProperty name="Target" label="Specimen" type="citeimg"></citeProperty>
-        <citeProperty name="Label" label="Label" type="string"></citeProperty>
+        <citeProperty name="Target" label="Specimen" type="citeurn"></citeProperty>
+        <citeProperty name="Label" label="Label" type="markdown"></citeProperty>
         <citeProperty name="Author" label="Description" type="string"></citeProperty>
-        <citeProperty name="Rights" label="Rights" type="string"></citeProperty>
         <citeProperty name="Date" label="Date" type="string"></citeProperty>
         <citeProperty name="Note" label="Comment" type="markdown"></citeProperty>
-    </citeCollection>-->
+    </citeCollection>
     
 </collectionService>
