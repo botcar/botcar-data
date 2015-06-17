@@ -7,7 +7,7 @@
     <extensionImplementation abbr="image" rdfType="cite:CiteImage"/>
     
     <!-- Image Collections -->
-   <!-- <citeCollection urn="urn:cite:fufolioimg:BotCarCatesbyHS" label="caption" canonicalId="URN">
+    <citeCollection urn="urn:cite:fufolioimg:BotCarCatesbyHS" label="caption" canonicalId="URN">
         <namespaceMapping abbr="fufolioimg" fullValue="http://classics.furman.edu/datans"/>
         <extension name="image"/>
         <dc:title>Botanica Caroliniana: Mark Catesby's Specimens</dc:title>
@@ -23,7 +23,7 @@
         <citeProperty label="Rights" name="rights" type="string"/>
     </citeCollection>
     
-    <citeCollection urn="urn:cite:fufolioimg:BotCarCatesbyNH" label="caption" canonicalId="URN">
+     <citeCollection urn="urn:cite:fufolioimg:BotCarCatesbyNH" label="caption" canonicalId="URN">
         <namespaceMapping abbr="fufolioimg" fullValue="http://classics.furman.edu/datans"/>
         <extension name="image"/>
         <dc:title>Botanica Caroliniana: Mark Catesby's Natural History</dc:title>
@@ -155,13 +155,13 @@
         <citeProperty label="URN" name="URN" type="citeurn"/>
         <citeProperty label="Caption" name="caption" type="string"/>
         <citeProperty label="Rights" name="rights" type="string"/>
-    </citeCollection>-->
+    </citeCollection>
     
     <!-- Botanica Caroliniana Collections -->
     
 
     
-   <!-- <citeCollection 
+    <citeCollection 
         urn="urn:cite:botcar:catesbySpecimens" 
         canonicalId="URN"
         label="name">
@@ -193,9 +193,9 @@
         <citeProperty label="Folio Image" name="image" type="citeimg"/>
         <citeProperty label="Folio Image ROI" name="ROI" type="citeimg"/>
         <citeProperty label="ITIS TSN Serial No." name="tsn" type="string"/>
-    </citeCollection>-->
+    </citeCollection>
     
-   <!--<citeCollection 
+   <citeCollection 
         urn="urn:cite:botcar:lordSpecimens" 
         canonicalId="URN"
         label="Name">
@@ -221,10 +221,10 @@
        <citeProperty label="ITIS TSN Serial No." name="tsn" type="string"/>
            
         
-    </citeCollection>-->
+    </citeCollection>
    
     
- <!--    <citeCollection 
+     <citeCollection 
         urn="urn:cite:botcar:species"
         canonicalId="speciesURN" 
         label="label">
@@ -245,9 +245,9 @@
         
         <citeProperty label="Label" name="label" type="markdown"/>
         <citeProperty label="ITIS TSN Serial No." name="tsn" type="string"/>
-    </citeCollection>-->
+    </citeCollection>
     
-<!--<citeCollection 
+<citeCollection 
     urn="urn:cite:botcar:genus"
     canonicalId="URN"
      label="label">
@@ -266,9 +266,9 @@
         <citeProperty label="Family URN" name="familyURN" type="citeurn"/>
         <citeProperty label="ITIS TSN Serial No." name="tsn" type="string"
             />
-    </citeCollection>-->
+    </citeCollection>
     
-<!--<citeCollection 
+<citeCollection 
     urn="urn:cite:botcar:family"
     label="label"
     canonicalId="familyURN">
@@ -285,11 +285,11 @@
     <citeProperty label="Label" name="label" type="string"/>
         <citeProperty label="Family Name" name="familyName" type="string"/>
         <citeProperty label="ITIS TSN Serial No." name="tsn" type="string"/>
-</citeCollection>-->
+</citeCollection>
     
   
     
-    <!--    
+      
     <citeCollection 
         urn="urn:cite:botcar:CatesbyHS212" 
         canonicalId="folioURN"
@@ -339,9 +339,9 @@
         <citeProperty label="Internal sequence number" name="Sequence" type="number"/>
      <citeProperty label="Default Image" name="defaultImage" type="citeimg"/>
      
- </citeCollection> -->
+ </citeCollection>
     
- <!--   <citeCollection 
+    <citeCollection 
         urn="urn:cite:botcar:lordLabels"
         canonicalId="URN" 
         label="Name">
@@ -361,9 +361,9 @@
         <citeProperty label="Text" name="LabelText" type="markdown"/>
         <citeProperty label="Name" name="name" type="string"/>
         
-    </citeCollection>-->
+    </citeCollection>
     
-  <!--  <citeCollection 
+    <citeCollection 
         urn="urn:cite:botcar:catesbyLabels"
         canonicalId="URN" 
         label="name">
@@ -453,7 +453,7 @@
             value="LordFolio.csv"/>
        <citeProperty name="URN" label="URN" type="citeurn"/>
         <citeProperty name="Label" label="Label" type="string"></citeProperty>
-   </citeCollection>-->
+   </citeCollection>
     
     <citeCollection canonicalId="URN" label="URN" urn="urn:cite:botcar:location">
         <namespaceMapping abbr="botcar" fullValue="http://classics.furman.edu/datans"/>
@@ -472,7 +472,7 @@
         <citeProperty name="GeoJSON" label="GeoJSON" type="geojson"></citeProperty>
     </citeCollection>
     
-    <citeCollection canonicalId="URN" label="URN" urn="urn:cite:botcar:commentary">
+    <!--<citeCollection canonicalId="URN" label="URN" urn="urn:cite:botcar:commentary">
         <namespaceMapping abbr="botcar" fullValue="http://classics.furman.edu/datans"/>
         <dc:title>Botanica Caroliniana: Commentary</dc:title>
         <dc:description>BC: Commentary and Notes on Specimens</dc:description>
@@ -489,6 +489,6 @@
         <citeProperty name="Rights" label="Rights" type="string"></citeProperty>
         <citeProperty name="Date" label="Date" type="string"></citeProperty>
         <citeProperty name="Note" label="Comment" type="markdown"></citeProperty>
-    </citeCollection>
+    </citeCollection>-->
     
 </collectionService>
