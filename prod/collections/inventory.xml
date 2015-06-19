@@ -161,7 +161,7 @@
     
 
     
-    <citeCollection 
+     <citeCollection 
         urn="urn:cite:botcar:catesbySpecimens" 
         canonicalId="URN"
         label="name">
@@ -339,7 +339,7 @@
         <citeProperty label="Internal sequence number" name="Sequence" type="number"/>
      <citeProperty label="Default Image" name="defaultImage" type="citeimg"/>
      
- </citeCollection>
+ </citeCollection> 
     
     <citeCollection 
         urn="urn:cite:botcar:lordLabels"
@@ -354,19 +354,20 @@
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
         <source
             type="file"
-            value="LordLabels.tsv"/>
+            value="lordLabels.csv"/>
+        <citeProperty label="Name" name="Name" type="string"/>
         <citeProperty label="URN" name="URN" type="citeurn"/>
         <citeProperty label="Folio URN" name="folioURN" type="citeurn"/>
         <citeProperty label="Image URN" name="ROI" type="citeimg"/>
         <citeProperty label="Text" name="LabelText" type="markdown"/>
-        <citeProperty label="Name" name="name" type="string"/>
+        
         
     </citeCollection>
     
     <citeCollection 
         urn="urn:cite:botcar:catesbyLabels"
         canonicalId="URN" 
-        label="name">
+        label="Name">
         <namespaceMapping abbr="botcar" fullValue="http://classics.furman.edu/datans/botcar"/>
         
         <dc:title>Botanica Caroliniana: Labels</dc:title>
@@ -377,6 +378,7 @@
         <source
             type="file"
             value="CatesbyLabels.csv"/>
+        <citeProperty label="Name" name="Name" type="string"/>
         <citeProperty label="URN" name="URN" type="citeurn"/>
         <citeProperty label="Folio URN" name="folioURN" type="citeurn"/>
         <citeProperty label="Image URN" name="imgURN" type="citeimg"/>
@@ -455,7 +457,7 @@
         <citeProperty name="Label" label="Label" type="string"></citeProperty>
    </citeCollection>
     
-    <citeCollection canonicalId="URN" label="URN" urn="urn:cite:botcar:location">
+    <citeCollection canonicalId="URN" label="Label" urn="urn:cite:botcar:location">
         <namespaceMapping abbr="botcar" fullValue="http://classics.furman.edu/datans"/>
         <dc:title>Botanica Caroliniana: Locations</dc:title>
         <dc:description>BC: Geographic Locations, specfied by GeoJSON strings</dc:description>
@@ -464,7 +466,7 @@
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
         <source
             type="file"
-            value="locations.tsv"/>
+            value="locations.csv"/>
         <citeProperty name="URN" label="URN" type="citeurn"></citeProperty>
         <citeProperty name="Label" label="Label" type="string"></citeProperty>
         <citeProperty name="Description" label="Description" type="string"></citeProperty>
@@ -472,22 +474,22 @@
         <citeProperty name="GeoJSON" label="GeoJSON" type="geojson"></citeProperty>
     </citeCollection>
     
-    <citeCollection canonicalId="URN" label="URN" urn="urn:cite:botcar:commentary">
+    <citeCollection canonicalId="URN" label="Label" urn="urn:cite:botcar:commentary">
         <namespaceMapping abbr="botcar" fullValue="http://classics.furman.edu/datans"/>
-        <dc:title>Botanica Caroliniana: Commentary</dc:title>
+        <dc:title>Botanica Caroliniana: Medical Commentary</dc:title>
         <dc:description>BC: Commentary and Notes on Specimens</dc:description>
         <dc:rights>All data in this collection are available
             under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
         <source
             type="file"
-            value="commentary.tsv"/>
-        <citeProperty name="URN" label="URN" type="citeurn"></citeProperty>
-        <citeProperty name="Target" label="Specimen" type="citeurn"></citeProperty>
-        <citeProperty name="Label" label="Label" type="markdown"></citeProperty>
-        <citeProperty name="Author" label="Description" type="string"></citeProperty>
+            value="commentary.csv"/>
+        <citeProperty name="Author" label="Author" type="string"></citeProperty>
         <citeProperty name="Date" label="Date" type="string"></citeProperty>
-        <citeProperty name="Note" label="Comment" type="markdown"></citeProperty>
+        <citeProperty name="Label" label="Label" type="markdown"></citeProperty>
+        <citeProperty name="URN" label="URN" type="citeurn"></citeProperty>
+        <citeProperty name="Target" label="Target" type="citeurn"></citeProperty>
+        <citeProperty name="Comment" label="Comment" type="markdown"></citeProperty>
     </citeCollection>
     
 </collectionService>
