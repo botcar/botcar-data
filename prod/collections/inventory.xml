@@ -202,7 +202,7 @@
         
         <namespaceMapping abbr="botcar" fullValue="http://classics.furman.edu/datans"/>
         <dc:title>Botanica Caroliniana: Lord Specimens</dc:title>
-        <dc:description>BC: Joseph Lord's handwritten labels on his specimens from the Sloane Herbarium</dc:description>
+        <dc:description>BC: Joseph Lord’s botanical specimens in the Sloane Herbarium</dc:description>
         <dc:rights>All data in this collection are available
             under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
@@ -446,7 +446,7 @@
     <citeCollection canonicalId="URN" label="Label" urn="urn:cite:botcar:LordFolios">
         <namespaceMapping abbr="botcar" fullValue="http://classics.furman.edu/datans"/>
         <dc:title>Botanica Caroliniana: Lord Specimens</dc:title>
-        <dc:description>BC: Specimens from Joseph Lord</dc:description>
+        <dc:description>BC: Folios of Joseph Lord's herbarium collection</dc:description>
         <dc:rights>All data in this collection are available
             under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</dc:rights>
