@@ -81,11 +81,14 @@ function showInfo(total, showing){
 }
 
 function doTabulator(results){
-	console.log("Doing tabulator");
+//	console.log("Doing tabulator");
+
+	showInfo(totalResults, showingResults);
 
 	//create Tabulator on DOM element with id "example-table"
 	$("#bcdata-table").tabulator({
-  		 //movableRows: true, //enable user movable rows
+  		 movableColumns: true, //enable user movable rows
+  		 persistentLayout:true, //Enable column layout persistence
 	    height:"65%", // set height of table (optional)
 	    fitColumns:false, //fit columns to width of table (optional)
 			columns:[
